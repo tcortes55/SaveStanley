@@ -15,11 +15,11 @@ All of that goes to say: I really like this TV show. And then something odd happ
 
 ![_config.yml]({{ site.baseurl }}/images/stanley01.jpg)
 
-I woke up thrilled by this idea. Coincidentally (was it?), this dream happened a week prior to a free game development course provided by [Alura Online](https://www.alura.com.br/) for which I had registered. I have about 5 years of professional experience in software development, but I always worked in projects for metals industry. I had never had any experience with game development before (except a Snake game I developed 2 years ago, but it's really not the same thing).
+I woke up thrilled by this idea. Coincidentally (was it?), this dream happened a week prior to a free game development course provided by [Alura Online](https://www.alura.com.br/) for which I had registered. I have about 5 years of professional experience in software development, but I always worked in projects for heavy industries. I had never had any experience with game development before (except a Snake game I developed 2 years ago, but it's really not the same thing).
 
 ## First steps into the game
 
-Next thing I know, I'm drawing sprites the game dev course and ellaborating ideas for the game. It must have pretzels; the scorecount will actually be a clock starting at 9am, and your goal is to avoid you boss and co-workers until you get to 5pm.
+Next thing I know, I'm drawing sprites for the game dev course and ellaborating ideas for the game. It must have pretzels; the scorecount will actually be a clock starting at 9am, and your goal is to avoid you boss and co-workers until you get to 5pm.
 
 When there's a collision with another character, Stanley's stress level increases. If it gets from 0 to 100, he dies. Crosswords are collectable items, and in the game they work just as they would for Stanley in the show: time goes faster (clock timer fast forwards 30 minutes) and stress is reduced. And, of course, he has to collect pretzels!
 
