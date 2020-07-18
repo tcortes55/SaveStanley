@@ -1,15 +1,16 @@
 ---
 layout: post
 title: First steps into game development
+date: 2020-07-18 10:00:00
 ---
 
-Every person who is even remotely involved with game development must have heard of Unity at this point. That was my case, but I had never used it. And I didn't use it for _Stanley's Day At The Office_. As I mentioned in the [introduction]({ % post_url 2020-07-17-my-the-office-inspired-game % }), I was following Alura's free mini course in game development. The idea in this course was to build a game from scratch, understanding and implementing the basic mechanics, so we could grasp these concepts instead of dealing only with high level stuff. Unity is great, and [Alura has courses on that subject too](https://www.alura.com.br/formacao-jogos-unity), but that wasn't our goal here.
+Every person who is even remotely involved with game development must have heard of Unity at this point. That was my case, but I had never used it. And I didn't use it for _Stanley's Day At The Office_. As I mentioned in the [introduction]({% post_url 2020-07-17-my-the-office-inspired-game %}), I was following Alura's free mini course in game development. The idea in this course was to build a game from scratch, understanding and implementing the basic mechanics, so we could grasp these concepts instead of dealing only with high level stuff. Unity is great, and [Alura has courses on that subject too](https://www.alura.com.br/formacao-jogos-unity){:target="_blank"}, but that wasn't our goal here.
 
 ## p5.js library, animation and game mechanics
 
-We don't want to abstract too much of the implementation, but we also don't have to reinvent the wheel. So, for this game we used [p5.js](https://p5js.org/), a Javascript library specific for animation.
+We don't want to abstract too much of the implementation, but we also don't have to reinvent the wheel. So, for this game we used [p5.js](https://p5js.org/){:target="_blank"}, a Javascript library specific for animation.
 
-I will not delve too much into specifics, afterall my goal here is not to reproduce the course lectures. The instructors had a storyline for their game, but suggested everyone to come up with their own. I chose to develop this _Office_ storyline that [I had dreamt about a week before]({ % post_url 2020-07-17-my-the-office-inspired-game % }).
+I will not delve too much into specifics, afterall my goal here is not to reproduce the course lectures. The instructors had a storyline for their game, but suggested everyone to come up with their own. I chose to develop this _Office_ storyline that [I had dreamt about a week before]({% post_url 2020-07-17-my-the-office-inspired-game %}).
 
 
 ### Endless runner game

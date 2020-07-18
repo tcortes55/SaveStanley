@@ -118,6 +118,10 @@ strong, b {
   font-weight: bold;
 }
 
+figure {
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
@@ -296,6 +300,11 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.blog-asset {
+  display: block;
+  margin: auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

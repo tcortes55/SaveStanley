@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Stress Relief (The Office S05E13)
+date: 2020-07-18 11:00:00
 ---
 
-This is one of the absolute BEST episodes of _The Office_. It certainly has the best cold open in the entire series, and it features Stanley Hudson's character in a very prominent way. In this post, I'm gonna discuss the inspirations drawn from this episode. I'll get into plot details, so if you haven't watched it, better skip to next post.
+This is one of the absolute BEST episodes of _The Office_. It certainly has the best cold open in the entire series, and it features Stanley Hudson's character in a very prominent way. In this post, I'm gonna discuss the inspirations drawn from [this episode](https://www.imdb.com/title/tt1248736/){:target="_blank"}. I'll get into plot details, so if you haven't watched it yet, better skip to next post.
 
 ## \*\*\*SPOILER ALERT\*\*\* _The Office_ S05E13 - Stress Relief
 
@@ -27,7 +28,7 @@ Later, we learn that Stanley has a device to measure his stress level, and whene
 
 Traditionally, games have a health bar, which starts with 100 health points that decrase as the player faces damage.
 
-To fit my storytelling, I chose a different approach: the health bar is actually a stress meter. It starts at 0 and increases if the player collides with the obstacles (co-workers), mirroring Stanley's stress level (which increases as Michael gets close to him). When the stress level gets to 100, the character dies.
+To fit [my storytelling]({% post_url 2020-07-17-my-the-office-inspired-game %}), I chose a different approach: the health bar is actually a stress meter. It starts at 0 and increases if the player collides with the obstacles (co-workers), mirroring Stanley's stress level (which increases as Michael gets close to him). When the stress level gets to 100, the character dies.
 
 ### Plot resolution
 
