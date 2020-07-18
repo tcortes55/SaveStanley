@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a Brazilian software engineer. I've lost count of how many hours I spent watching The Office.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Is there any idea you would like to discuss? Feel free to contact me.
+I'm available for freelance projects and full-time employment.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[www.tarcisiocortes.com](http://www.tarcisiocortes.com){:target="_blank"}
