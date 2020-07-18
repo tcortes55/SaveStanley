@@ -7,7 +7,7 @@ This is one of the absolute BEST episodes of _The Office_. It certainly has the 
 
 ## \*\*\*SPOILER ALERT\*\*\* _The Office_ S05E13 - Stress Relief
 
-Dwight, you ignorant slut! I could spend hours discussing this cold open frame by frame. Michael Scott is the worst boss you could have in a situation like that. His reaction screaming, calling names and shouting "EVERYONE FOR HIMSELF!" fits his character perfectly.
+Dwight, you ignorant slut! A fake fire is an unbelievably horrible idea, even for Dwight's standards. I could spend hours discussing this cold open frame by frame. Also, Michael Scott is the worst boss you could have in a situation like that. His reaction screaming, calling names and shouting "EVERYONE FOR HIMSELF!" fits his character perfectly.
 
 I also love Phillys and Stanley's exchange about her purse ("LEAVE IT, WOMAN!"). Some other favorite bits are Angela throwing her cat, Bandit, and Creed's face when Oscar falls from the ceiling.
 
