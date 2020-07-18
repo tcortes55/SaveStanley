@@ -11,7 +11,7 @@ I've watched the entire series, and now I'm rewatching it following [_Office Lad
 
 All of that goes to say: I really like this TV show. And then something odd happened: one day I had a dream about a _The Office_-based game. In this game, Stanley Hudson was the main character, and the goal was to get through the day of work from 9am until 5pm. If you are reading this, I suppose you have watched _The Office_, so you know this would be totally in character for Stanley.
 
-{% include image name="stanley.jpg" caption="Stanley Hudson, portrayed by Leslie David Baker" %}
+{% include image.html name="stanley.jpg" caption="Stanley Hudson, portrayed by Leslie David Baker" alt="Image of character Stanley Hudson looking bored" %}
 
 
 I woke up thrilled by this idea. Coincidentally (was it?), this dream happened a week prior to a free game development course provided by [Alura Online](https://www.alura.com.br/) for which I had registered. I have about 5 years of professional experience in software development, but I always worked in projects for heavy industries. I had never had any experience with game development before (except a Snake game I developed 2 years ago, but it's really not the same thing. I might get into that in a future post).
