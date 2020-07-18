@@ -1,8 +1,0 @@
-I"�<p>I’m a huge fan of NBC’s sitcom “The Office”. I first watched it a few years ago, and I remember the first time I saw episode “Booze Cruise” as if it had been yesterday. I literally had to pause the episode so I could get myself together, stop laughing and start paying attention again. I’ve watched the entire series, and now I’m rewatching it following <a href="https://officeladies.com/">Office Ladies</a>, a podcast by Jenna Fischer and Angela Kinsey in which they discuss a new episode of The Office each week.</p>
-
-<p>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</p>
-
-<p><img src="/images/config.png" alt="_config.yml" /></p>
-
-<p>The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the <a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> on GitHub.</p>
-:ET
