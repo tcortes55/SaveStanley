@@ -15,10 +15,17 @@
 <figure class="figure {% if include.caption %}figure--caption{% endif %} {% if frame %}figure--frame{% endif %}">
 	<div class="figure__inner">
     {% if extension == 'mp4' %}
-      <video autoplay loop playsinline muted>
-        <source src="/images/posts/{{ assetPath }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      {% if include.isroot == false %}
+        <video autoplay loop playsinline muted>
+          <source src="/images/posts/{{ assetPath }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% else %}
+        <video autoplay loop playsinline muted>
+          <source src="/images/{{ include.name }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% endif %}
     {% else %}
       <img
         class="figure__image"
