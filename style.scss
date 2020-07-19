@@ -319,6 +319,32 @@ footer {
   }
 }
 
+.rgba-mask {
+  mask-image: url(images/texture.png);
+  -webkit-mask-image: url(images/texture.png);
+  -webkit-mask-position-y: center;
+}
+
+.rgba-mask-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-white {
+  color: white !important;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

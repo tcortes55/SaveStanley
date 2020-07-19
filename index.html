@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<a href="{{ site.baseurl }}/play" target="blank">{% include image.html name="animation.mp4" isroot="true" %}</a>
+<a href="{{ site.baseurl }}/play" target="blank">
+  <div class="rgba-mask-black video-container">
+    {% include image.html name="animation.mp4" isroot="true" class="rgba-mask" %}
+    <div class="centered">
+      <h2 class="text-white">Click to play!</h2>
+    </div>
+  </div>
+</a>
 
 <div class="posts">
   {% for post in site.posts %}
