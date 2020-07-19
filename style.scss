@@ -326,7 +326,7 @@ footer {
 }
 
 .rgba-mask-black {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .centered {
@@ -341,8 +341,15 @@ footer {
   text-align: center;
 }
 
-.text-white {
+.cta-play {
   color: white !important;
+  font-size: 30px;
+  font-family: $comfortaa;
+  font-weight: bold;
+
+  @include mobile {
+    font-size: 24px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
