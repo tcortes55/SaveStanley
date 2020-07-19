@@ -14,8 +14,8 @@
 
 <figure class="figure {% if include.caption %}figure--caption{% endif %} {% if frame %}figure--frame{% endif %}">
 	<div class="figure__inner">
-    {% if extension == 'mov' %}
-      <video autoplay loop>
+    {% if extension == 'mp4' %}
+      <video autoplay loop playsinline muted>
         <source src="/images/posts/{{ assetPath }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
