@@ -26,11 +26,11 @@ You can read about the work of _The Office_'s sound engineer, Ben Patrick, in [t
 
 ### Game sound effects
 
-Sound is used in a much more subtle way in a simple endless runner game. _Stanley's Day At The Office_ was developed by myself in my spare time, not by a huge company who can afford several teams for art, design, sound, marketing etc.
+In a simple endless runner game, sound is used in a much more subtle way. _Stanley's Day At The Office_ was developed by myself in my spare time, not by a huge company who can afford several teams for art, design, sound, marketing etc.
 
-I decided to go simple and not put any background music. I didn't think I could find a free song which would actually fit the story and that would be free to use. Also, I normally disable game music because after some time I find the repetition to be quite annoying.
+So, I decided to go simple and not put any background music. I didn't think I could find a free song which would actually fit the story and that would be free to use. Also, I normally disable game music because after some time I find the repetition to be quite annoying.
 
-But sound effects trigerred by player's actions are actually an important part of gameplay. It's an important feedback to the player, so I did some research (i.e. googled "free sound effects" and entered the first result) and found [freesound.org](https://freesound.org/){:target="_blank"}, an amazing site with a collaborative database of audio snippets, sound effects, recordings etc., which came to be very useful to me.
+But sound effects trigerred by player's actions are actually an important part of gameplay. They are a relevant feedback to the player, so I did some research (i.e. googled "free sound effects" and entered the first result) and found [freesound.org](https://freesound.org/){:target="_blank"}, an amazing site with a collaborative database of audio snippets, sound effects, recordings etc., which came to be very useful to me.
 
 In my game there are currently four sound effects:
 
