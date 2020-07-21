@@ -10,7 +10,7 @@ I used [Jekyll Now](https://github.com/barryclark/jekyll-now) for creating a [bl
 
 Currently, I am still developing new features for the game in my spare time, so keep checking it out for new stuff!
 
-All of the content in this site was used for educational reasons. I do not claim ownership of any trademarks or copyrighted material.
+All of the content in this site was used solely for educational reasons. I do not claim ownership of any trademarks or copyrighted material.
 
 ### Special thanks:
 - [Alura Cursos Online](https://github.com/alura-cursos), for the game dev course
