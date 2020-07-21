@@ -38,6 +38,7 @@ let enemies = [];
 let powerUps = [];
 let pretzelsPositionMatrix = [];
 let crosswordsPositionMatrix = [];
+let firstAidKit;
 
 // let highScoresText = '';
 let highScores = [];
@@ -56,7 +57,7 @@ const crosswordStressReduction = 20;
 
 const typePretzel = 'PRETZEL';
 const typeCrossword = 'CROSSWORD';
-const typeFirstAid = 'FIRST_AID';
+const typeFirstAid = 'FIRSTAID';
 const typeDeath = 'DEATH';
 const typeFinish = 'FINISH';
 const typeLevelFinish = 'LEVELFINISH';

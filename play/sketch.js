@@ -84,6 +84,7 @@ function clearGame() {
   firstAidResponder = null;
   enemies = [];
   powerUps = [];
+  firstAidKit = null;
   score = null;
   life = null;
   startButton = null;
@@ -237,6 +238,8 @@ function createPowerUps() {
     let newCrossword = new PowerUp(imgCrossword, crosswordPosition[0], crosswordPosition[1], scenarioSpeed, 90, 90, typeCrossword)
     powerUps.push(newCrossword);
   })
+
+  firstAidKit = new PowerUp(imgFirstAid, -width, 260, scenarioSpeed, 60, 50, typeFirstAid);
 }
 
 function createEnemies() {
@@ -331,6 +334,7 @@ function startNewLevel() {
   score.crosswords = 0;
 
   powerUps = [];
+  firstAidKit = null;
   createPowerUps();
   
   enemies = [];
@@ -540,13 +544,37 @@ function drawEnd() {
 
 function drawLevelEnd() {
   scoreBoardTimerCount++;
+
+  let newFirstAidKit = false;
+  if (score.pretzels === pretzelQuantity && life.firstAid < maxFirstAid) {
+    newFirstAidKit = true;
+  }
   
   if (scoreBoardTimerCount < 220) {
     offsetStep = 0;
+
+    if (newFirstAidKit) {
+      firstAidKit.x = width;
+    }
   }
   else {
     offsetStep = offsetStep - 20;
+
+    if (newFirstAidKit) {
+      firstAidKit.display();
+      firstAidKit.move();
+    }
   }
+
+
+  if (newFirstAidKit) {
+    if (character.isColliding(firstAidKit) && !firstAidKit.picked) {
+      firstAidKit.getPicked();
+      life.increaseFirstAid();
+    }
+  }
+
+
   drawWhiteBoard(offsetStep);
   let title = "Day " + score.scoreDay + " Finished!";
   drawScoreBoard(title, offsetStep);
