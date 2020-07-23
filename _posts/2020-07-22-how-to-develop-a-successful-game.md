@@ -51,3 +51,5 @@ This is a plan yet to be implemented. But I want to add a button where you can s
 Share your game in social media, tag influencers, tweet about it, post it in communities that might be interested in the game. In my case, that means sharing the game on _The Office_ subs in Reddit, tweeting about it, tagging profiles that post images and quotes from the show, and hopefully reach some of the cast members (can you even _imagine_ it???).
 
 This one is a lecture on myself, as I have yet to start doing what I say. So far, I've been postponing "marketing" (can I even call it marketing?) with the excuse that, first, I have to add new enemies, new improvements, more stuff, and so the days go by. Shame on me!
+
+If you have any ideas or suggestions to add on top of what I wrote above, feel free to [contact me]({{ site.baseurl }}/about).
