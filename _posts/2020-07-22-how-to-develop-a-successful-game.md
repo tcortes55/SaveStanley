@@ -16,11 +16,11 @@ All of these were big franchises developed by big companies. No single person co
 
 ## Back in those days...
 
-In the wake of the App Store and Play Store, when smartphones were a new thing and people were eager to search and discover new apps, many developers created simple, creative games in their spare time and were surprised by a sudden explosion in downloads and ad revenue.
+In the wake of the App Store and Play Store, when smartphones were a new thing and people were eager to search and discover new apps, many developers created simple, creative games in their spare time and were surprised by a sudden explosion in downloads (and revenue).
 
 {% include image.html name="flappy.png" caption="Remember this one?" alt="Screenshot of game Flappy Bird, with the flying bird passing between two pipes" %}
 
-However, this market was rapidly occupied by companies that grew to be very large. Nowadays, the top picks from the app stores are dominated by these companies, who have the budget to keep specialized teams for art, design, sound, software development, marketing, among others.
+However, this market was rapidly occupied by companies that grew to be very large. Nowadays, the top picks from the app stores are dominated by these companies, who have the budget to maintain specialized teams for art, design, sound, software development, marketing, among others.
 
 ## So, how can a solo developer try to join this rat race?
 
@@ -32,13 +32,13 @@ I already spend 9-10 hours a day working in software development. I wouldn't be 
 
 ### Ask for a little help from your friends
 
-When I first mentioned to my friends and co-workers that I was developing this little game, the response was great. The ones who watch _The Office_ immediately bought the idea and asked me to let them know as soon as it was avaible so they could try. And the ones who don't know the show were still excited to try a game made by a friend of theirs.
+When I first mentioned to my friends and co-workers that I was developing this little game, the response was great. The ones who watch _The Office_ immediately bought the idea and asked me to let them know as soon as it was avaible so they could try it. And the ones who don't know the show were still excited to try a game made by a friend of theirs.
 
 They then talked about it to other friends, who then talked to other friends, and so on.
 
 ### Make your players compete (even in a single player game)
 
-There's only so much new stuff you can add to your game without growing into too much complexity. As a solo developer, I can't afford to design hundreds of new game levels with shiny, new, different items, scenarios and enemies. So, the way I found to engage users was to keep a leaderboard; people feel instigated to play more in order to get better scores than previous players.
+There's only so much new stuff you can add to your game without growing into too much complexity. As a solo developer, I can't afford to design hundreds of new game levels with shiny new different items, scenarios and enemies in each one of them. So, one of the ways I found to engage users was to keep a leaderboard; people feel encouraged to play more in order to get better scores than previous players.
 
 Each player also has their best run recorded, so even if you're a newbie, still far away from reaching the leaderboard, you can compete against yourself, trying to beat your own previous best score.
 
