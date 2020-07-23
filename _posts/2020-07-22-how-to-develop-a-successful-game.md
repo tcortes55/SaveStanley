@@ -4,7 +4,7 @@ title: How to develop a successful game?
 date: 2020-07-22 09:00:00
 ---
 
-First of all: what's the definition of a successful game? As anything else in life: it depends. For a big company who invested millions in a development team, marketing, research and advertising, success is probably defined primarily in terms of revenue and profit. For an indie game, money, of course, is also necessary. But maybe it's more important for it to be critically acclaimed and loved by its audience; money may then come as a consequence of a growing, supporting fanbase.
+First of all: what's the definition of a successful game? As anything else in life: it depends. For a big company who invested millions in a development team, marketing, research and advertising, success is probably defined primarily in terms of revenue and profit. For an indie game, money, of course, is also necessary. But maybe it's more important for it to be critically acclaimed and loved by its audience; money may then come as a consequence of a growing, supportive fanbase.
 
 In my case, I have no pretension of getting any money out of my game; I'm doing it for the sole purpose of learning, so in a sense I already consider _Stanley's Day At The Office_ a success. But I also want it to be fun and I want people to like it.
 
