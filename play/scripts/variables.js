@@ -160,7 +160,7 @@ const gameMap = [
             speed: 15
           }
         ],
-        duration: 900
+        duration: 3000
       }
     ]
   },
@@ -250,6 +250,48 @@ const gameMap = [
           }
         ],
         duration: 250
+      }
+    ]
+  },
+  {
+    levelMap: [
+      // {
+      //   enemies: [
+      //     {
+      //       enemyId: 6,
+      //       speed: 12
+      //     },
+      //     {
+      //       enemyId: 8,
+      //       speed: 12
+      //     },
+      //     // {
+      //     //   enemyId: 5,
+      //     //   speed: 15
+      //     // }
+      //   ],
+      //   duration: 50
+      // },
+      {
+        enemies: [
+          {
+            enemyId: 6,
+            speed: 12
+          },
+          {
+            enemyId: 7,
+            speed: 8
+          },
+          {
+            enemyId: 8,
+            speed: 12
+          },
+          {
+            enemyId: 2,
+            speed: 15
+          }
+        ],
+        duration: 1050
       }
     ]
   }
