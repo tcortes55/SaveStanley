@@ -39,7 +39,6 @@ function preload() {
   imgEnemyFlyingMichael = loadImage('images/enemies/flying_michael.png');
   imgEnemyJim = loadImage('images/enemies/jim.png');
   imgEnemyAndy = loadImage('images/enemies/andy.png');
-  imgEnemyCreed = loadImage('images/enemies/creed.png');
   imgEnemyFlyingCreed = loadImage('images/enemies/flying_creed.png');
   imgFirstAid = loadImage('images/assets/first-aid.png');
   imgFirstAidResponder = loadImage('images/assets/first-aid-responder.png');
