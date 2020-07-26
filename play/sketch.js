@@ -43,6 +43,7 @@ function preload() {
   imgEnemyRyan = loadImage('images/enemies/ryan.png');
   imgEnemyPam = loadImage('images/enemies/pam.png');
   imgEnemyKelly = loadImage('images/enemies/kelly.png');
+  imgEnemyKevin = loadImage('images/enemies/kevin.png');
   imgFirstAid = loadImage('images/assets/first-aid.png');
   imgFirstAidResponder = loadImage('images/assets/first-aid-responder.png');
   imgPretzel = loadImage('images/assets/pretzel.gif');
