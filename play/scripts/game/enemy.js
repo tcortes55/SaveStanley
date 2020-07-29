@@ -2,6 +2,7 @@ class Enemy extends Animation {
     constructor(positionMatrix, img, x, offsetY, characterWidth, characterHeight, spriteWidth, spriteHeight, speed, delay) {
         super(positionMatrix, img, x, offsetY, characterWidth, characterHeight, spriteWidth, spriteHeight);
 
+        this.originalX = x;
         this.originalSpeed = speed;
         this.speed = speed;
         this.delay = delay;
@@ -27,6 +28,7 @@ class Enemy extends Animation {
     }
 
     restart() {
+        this.x = this.originalX;
         this.setSpeed(this.originalSpeed);
         this.animate();
     }
