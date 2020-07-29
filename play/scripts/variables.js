@@ -276,11 +276,11 @@ const gameMap = [
         enemies: [
           {
             enemyId: 6,
-            speed: 12
+            speed: 8
           },
           {
             enemyId: 7,
-            speed: 8
+            speed: 12
           },
           {
             enemyId: 8,
@@ -291,7 +291,7 @@ const gameMap = [
             speed: 15
           }
         ],
-        duration: 1050
+        duration: 5000
       }
     ]
   }

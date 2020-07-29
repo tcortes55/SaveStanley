@@ -40,8 +40,8 @@ function preload() {
   imgEnemyJim = loadImage('images/enemies/jim.png');
   imgEnemyAndy = loadImage('images/enemies/andy.png');
   imgEnemyFlyingCreed = loadImage('images/enemies/flying_creed.png');
-  imgEnemyRyan = loadImage('images/enemies/ryan.png');
   imgEnemyPam = loadImage('images/enemies/pam.png');
+  imgEnemyRyan = loadImage('images/enemies/ryan.png');
   imgEnemyKelly = loadImage('images/enemies/kelly.png');
   imgEnemyKevin = loadImage('images/enemies/kevin.png');
   imgEnemyAngela = loadImage('images/enemies/angela.png');
@@ -256,8 +256,8 @@ function createEnemies() {
   const enemyAndy = new Enemy(michaelPositionMatrix, imgEnemyAndy, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 12, 100);
   const enemyFlyingCreed = new Enemy(flyingMichaelPositionMatrix, imgEnemyFlyingCreed, width * 1.8, 200, flyingMichaelWidth/1.5, flyingMichaelHeight/1.5, flyingMichaelWidth, michaelHeight, 15, 50);
   
-  const enemyRyan = new Enemy(dwightPositionMatrix, imgEnemyRyan, width, 0, dwightWidth, dwightHeight, dwightWidth, dwightHeight, 12, 100);
   const enemyPam = new Enemy(michaelPositionMatrix, imgEnemyPam, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 8, 300);
+  const enemyRyan = new Enemy(dwightPositionMatrix, imgEnemyRyan, width, 0, dwightWidth, dwightHeight, dwightWidth, dwightHeight, 12, 100);
   const enemyKelly = new Enemy(michaelPositionMatrix, imgEnemyKelly, width + 100, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 12, 100);
 
   enemies.push(enemyDwight);
@@ -268,8 +268,8 @@ function createEnemies() {
   enemies.push(enemyAndy);
   enemies.push(enemyFlyingCreed);
   
-  enemies.push(enemyRyan);
   enemies.push(enemyPam);
+  enemies.push(enemyRyan);
   enemies.push(enemyKelly);
 }
 
