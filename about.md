@@ -9,7 +9,6 @@ I'm a Brazilian software engineer. I've lost count of how many hours I spent wat
 ### More Information
 
 Is there any idea you would like to discuss? Feel free to contact me.
-I'm available for freelance projects and full-time employment.
 
 ### Contact me
 
