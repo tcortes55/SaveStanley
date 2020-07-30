@@ -211,6 +211,8 @@ function resetGame(scene) {
   isLevelFinished = false;
   resetButtonVisible = false;
 
+  messageAllPretzels = new FloatingMessage("Pick up ALL pretzels to restore your first aid kit!", scenarioSpeed, 590, 105, 270, 65);
+
   frameRate(30);
 }
 
@@ -614,6 +616,15 @@ function drawGame() {
       clickButtonPressed = true;
       currentScene = scenePause;
     });
+  }
+
+  if (messageAllPretzels != null) {
+    messageAllPretzels.display();
+    messageAllPretzels.move();
+
+    if (messageAllPretzels.x < -messageAllPretzels.boxWidth) {
+      messageAllPretzels = null;
+    }
   }
     
   powerUps.forEach(powerUp => {
