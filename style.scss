@@ -267,9 +267,8 @@ nav {
 
 .posts > .post:last-child {
   // padding-bottom: 1em;
-  // border-bottom: none;
-  // padding-bottom: 2em;
-  margin-bottom: 2em;
+  border-bottom: none;
+  // margin-bottom: 2em;
 }
 
 .post {
@@ -295,7 +294,7 @@ nav {
 .bottompagination .navigation {
   display: block;
   padding: 35px 0 0 0;
-  margin-top: 2em;
+  // margin-top: 2em;
   text-align: center;
   color: #999;
   border-top: 1px solid #ddd;
@@ -361,6 +360,11 @@ footer {
   @include mobile {
     font-size: 24px;
   }
+}
+
+.ad {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
