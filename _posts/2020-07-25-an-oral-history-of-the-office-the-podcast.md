@@ -6,9 +6,9 @@ date: 2020-07-25 09:00:00
 
 One of the reasons that make me so fond of _The Office_, even almost a decade after its ending, is seeing how the cast, crew and producers still care for each other. Michael was disrespectful, Angela was judgemental, Dwight was insane, yes. But Steve Carell, Angela Kinsey and Rainn Wilson, along with the others, have, to this day, much affection towards each other.
 
-In [previous posts]({% post_url 2020-07-19-sound-effects-laugh-tracks-and-googles-first-result %}), I've mentioned _Office Ladies_ podcast, by Jenna Fischer and Angela Kinsey. It is a rewatch podcast; every Wednesday, they discuss a new episode of the series, starting from [Pilot](https://www.imdb.com/title/tt0664521/){:target="_blank"}. As of today, their [most recent episode](https://officeladies.com/episodes/2020/07/22/episode-37-the-merger){:target="_blank"} discussed S03E08 [The Merger](https://www.imdb.com/title/tt0894520/){:target="_blank"}.
-
 {% include in-post-ad.html %}
+
+In [previous posts]({% post_url 2020-07-19-sound-effects-laugh-tracks-and-googles-first-result %}), I've mentioned _Office Ladies_ podcast, by Jenna Fischer and Angela Kinsey. It is a rewatch podcast; every Wednesday, they discuss a new episode of the series, starting from [Pilot](https://www.imdb.com/title/tt0664521/){:target="_blank"}. As of today, their [most recent episode](https://officeladies.com/episodes/2020/07/22/episode-37-the-merger){:target="_blank"} discussed S03E08 [The Merger](https://www.imdb.com/title/tt0894520/){:target="_blank"}.
 
 But this week I discovered another podcast by another cast member: [An Oral History of The Office](https://open.spotify.com/show/5T1519uHGVd6Te2xF5tKkR){:target="_blank"}, by Brian Baumgartner, who portrayed Kevin Malone in the TV show.
 

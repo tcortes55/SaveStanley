@@ -6,6 +6,8 @@ date: 2020-07-22 09:00:00
 
 First of all: what's the definition of a successful game? As anything else in life: it depends. For a big company who invested millions in a development team, marketing, research and advertising, success is probably defined primarily in terms of revenue and profit. For an indie game, money, of course, is also necessary. But maybe it's more important for it to be critically acclaimed and loved by its audience; money may then come as a consequence of a growing, supportive fanbase.
 
+{% include in-post-ad.html %}
+
 In my case, I have no pretension of getting any money out of my game; I'm doing it for the sole purpose of learning, so in a sense I already consider _Stanley's Day At The Office_ a success. But I also want it to be fun and I want people to like it.
 
 ## Learning from the greats
@@ -21,6 +23,8 @@ In the wake of the App Store and Play Store, when smartphones were a new thing a
 {% include image.html name="flappy.png" caption="Remember this one?" alt="Screenshot of game Flappy Bird, with the flying bird passing between two pipes" %}
 
 However, this market was rapidly occupied by companies that grew to be very large. Nowadays, the top picks from the app stores are dominated by these companies, who have the budget to maintain specialized teams for art, design, sound, software development, marketing, among others.
+
+{% include in-post-ad.html %}
 
 ## So, how can a solo developer try to join this rat race?
 

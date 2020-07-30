@@ -6,6 +6,8 @@ date: 2020-07-18 12:00:00
 
 When I first told people I had this idea for an _Office_ based game centered on Stanley's character, everybody asked me if pretzels were to be included. Of course! Pretzels are the main collectable items in the game, and in this post I'll discuss the famous Pretzel Day [episode](https://www.imdb.com/title/tt0873237/){:target="_blank"} and how it ties into the game. If you haven't watched it yet, better skip to next post.
 
+{% include in-post-ad.html %}
+
 ## \*\*\*SPOILER ALERT\*\*\* _The Office_ S03E05 - Initiation
 
 This episode's main storyline revolves around Pam taking notes on everything Michael Scott is doing during the day, as per Jan's request. Michael, of course, procrastinates all day long. At some point, it is announced that the Scraton Business Park will be giving away complimentary free pretzels, to which Stanley reacts immediately.
@@ -27,6 +29,8 @@ Pretzel Day is such a big deal to Stanley that he puts away [his differences wit
 In _Stanley's Day At The Office_, pretzels are the most prominent collectable items. There's a fixed quantity of pretzels per level, and, as they are collected, they add to the total score. Pretzels are distributed randomly through each level, so every gameplay will be always unique. Sometimes you will be lucky and it will be easy to collect all of them; sometimes it will be impossible to pick up a pretzel without colliding with a co-worker.
 
 When the player picks up all of the pretzels in a certain level, there will be a bonus. As of today, this bonus has not been implemented yet, but it's already in the backlog for a future improvement.
+
+{% include in-post-ad.html %}
 
 ### Episode plot
 

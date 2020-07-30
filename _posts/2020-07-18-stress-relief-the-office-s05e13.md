@@ -6,6 +6,8 @@ date: 2020-07-18 11:00:00
 
 This is one of the absolute BEST episodes of _The Office_. It certainly has the best cold open in the entire series, and it features Stanley Hudson's character in a very prominent way. In this post, I'm gonna discuss the inspirations drawn from [this episode](https://www.imdb.com/title/tt1248736/){:target="_blank"}. I'll get into plot details, so if you haven't watched it yet, better skip to next post.
 
+{% include in-post-ad.html %}
+
 ## \*\*\*SPOILER ALERT\*\*\* _The Office_ S05E13 - Stress Relief
 
 Dwight, you ignorant slut! A fake fire is an unbelievably horrible idea, even for Dwight's standards. I could spend hours discussing this cold open frame by frame. Also, Michael Scott is the worst boss you could have in a situation like that. His reaction screaming, calling names and shouting "EVERYONE FOR HIMSELF!" fits his character perfectly.
@@ -25,6 +27,8 @@ This draws the first inspiration from the episode: when Stanley dies in the game
 #### Stress level meter (game's health points)
 
 Later, we learn that Stanley has a device to measure his stress level, and whenever the boss, Michael Scott, gets too close to him, the device starts to beep. There's a parallel to this in the game.
+
+{% include in-post-ad.html %}
 
 Traditionally, games have a health bar, which starts with 100 health points that decrase as the player faces damage.
 

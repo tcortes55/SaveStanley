@@ -6,6 +6,8 @@ date: 2020-07-19 09:00:00
 
 Along all of the seasons of _The Office_, crossword puzzles came to be one of the defining traits of Stanley Hudson's character. Whether it's in a meeting in the conference room, in a sales call or even in his desk, he will frequently be looking down trying to solve his favorite type of puzzle, while not really paying much attention to the surroundings.
 
+{% include in-post-ad.html %}
+
 The writers took this really far on the cold opening of [Costume Contest](https://www.imdb.com/title/tt1725594/){:target="_blank"}, season 7 episode 6. I won't discuss its plot, so no need to worry about spoilers. But here's the video in case you want to watch it.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iA89H8CgLTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="blog-asset"></iframe>

@@ -6,6 +6,8 @@ date: 2020-07-19 10:00:00
 
 In this blog, I frequently mention my game _Stanley's Day At The Office_, TV show [_The Office_](https://www.imdb.com/title/tt0386676/){:target="_blank"} and podcast [_Office Ladies_](https://officeladies.com/){:target="_blank"}, by Jenna Fischer and Angela Kinsey (who played Pam and Angela, respectively, in the TV show). There is one aspect that is relevant for all of these three types of media: sound.
 
+{% include in-post-ad.html %}
+
 One thing that I enjoy about sound in _The Office_ is the absence of a laugh track. I think laugh tracks make unfunny jokes even worse, and, even when they are placed over an actually funny joke, they break the comedy pace.
 
 Also, laugh tracks can be simply quite annoying: check out this example from [How I Met Your Mother](https://www.imdb.com/title/tt0460649/){:target="_blank"} (which is a show I absolutely love, but that doesn't stop the repeating laugh track from annoying me). It is a montage from several episodes in season 2, where we can hear the same sound track being repeated over and over again.
@@ -23,6 +25,8 @@ There's a scene where something bad is revealed and then we see the character's 
 _The Office_ is a [mockumentary](https://en.wikipedia.org/wiki/Mockumentary){:target="_blank"}, i.e. it depicts fictional events presented as a documentary. The characters are almost always aware of the presence of the fictional filming crew. This gives the writers and producers an opportunity to insert aspects of TV/film production into the plot. This happens several times, for example, when Jan is having a conversation with Michael on the phone and is unaware of the presence of other employees or filming crew, whilst Michael has put her on speaker phone.
 
 You can read about the work of _The Office_'s sound engineer, Ben Patrick, in [this article](https://soundandpicture.com/2010/12/the-office-sound-mixing-with-ben-patrick/){:target="_blank"} from _Sound and Picture_ magazine.
+
+{% include in-post-ad.html %}
 
 ### Game sound effects
 
