@@ -18,8 +18,15 @@
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    <meta property="twitter:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="twitter:title" content="{{ site.name }}" />
+    <meta property="twitter:description" content="{{ site.description }}" />
     {% endif %}
 
     <meta property="og:image" content="https://raw.githubusercontent.com/tc553/tc553.github.io/master/images/thumbnail.png" />
     <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/tc553/tc553.github.io/master/images/thumbnail.png" />
     <meta property="og:type" content="website" />
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/tc553/tc553.github.io/master/images/thumbnail.png">
