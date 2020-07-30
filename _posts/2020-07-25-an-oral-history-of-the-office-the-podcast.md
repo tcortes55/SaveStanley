@@ -8,6 +8,8 @@ One of the reasons that make me so fond of _The Office_, even almost a decade af
 
 In [previous posts]({% post_url 2020-07-19-sound-effects-laugh-tracks-and-googles-first-result %}), I've mentioned _Office Ladies_ podcast, by Jenna Fischer and Angela Kinsey. It is a rewatch podcast; every Wednesday, they discuss a new episode of the series, starting from [Pilot](https://www.imdb.com/title/tt0664521/){:target="_blank"}. As of today, their [most recent episode](https://officeladies.com/episodes/2020/07/22/episode-37-the-merger){:target="_blank"} discussed S03E08 [The Merger](https://www.imdb.com/title/tt0894520/){:target="_blank"}.
 
+{% include in-post-ad.html %}
+
 But this week I discovered another podcast by another cast member: [An Oral History of The Office](https://open.spotify.com/show/5T1519uHGVd6Te2xF5tKkR){:target="_blank"}, by Brian Baumgartner, who portrayed Kevin Malone in the TV show.
 
 {% include image.html name="kevin.gif" caption="Indeed." alt="Animated gif of character Kevin Malone saying he is a hero" %}
@@ -25,6 +27,8 @@ Brian interviews other cast members, crew and producers, and they talk about the
 Few of the actors seemed to believe that the show would be the big hit it became a few years later. Not because they didn't believe the show was great, but because success relied on many factors beyond anyone's control.
 
 Television was different 15 years ago. People would actually sit in front of TV an wait for their favorite show to start at a scheduled time, there was no such thing as binge watching and Netflix was a DVD rental company.
+
+{% include in-post-ad.html %}
 
 ### Michael Scott, redeemable?
 
