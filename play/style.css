@@ -7,55 +7,74 @@
   canvas, button, .imgButton, .nameInput {
     transform: rotate(-90deg) scale(2);
   }
+
+  canvas {
+    /* top: calc((100vh - 360px)/2) !important; */
+    left: calc((100vw - 640px)/2 - 50px) !important;
+  }
+  
+  .gameAdLeft, .gameAdRight {
+    transform: rotate(-90deg) scale(2);
+    /* top: calc(((100vh)/2) - 345px) !important; */
+    left: calc(((100vw)/2) + 203px) !important;
+  }
+
+  .gameAdLeft {
+    top: calc(((100vh)/2) + 270px) !important;
+  }
+  
+  .gameAdRight {
+    top: calc(((100vh)/2) - 370px) !important;
+  }
   
   .startButton {
-    top: calc(((100vh)/2) - 410px) !important;
-    left: calc(((100vw)/2) + 150px) !important;
+    top: calc(((100vh)/2) - 435px) !important;
+    left: calc(((100vw)/2) + 100px) !important;
   }
 
   .highScoresButton {
-    top: calc(((100vh)/2) + 220px) !important;
-    left: calc(((100vw)/2) + 150px) !important;
+    top: calc(((100vh)/2) + 195px) !important;
+    left: calc(((100vw)/2) + 100px) !important;
   }
 
   .pauseButton {
-    top: calc(((100vh)/2) - 610px) !important;
-    left: calc(((100vw)/2) - 332px) !important;
+    top: calc(((100vh)/2) - 635px) !important;
+    left: calc(((100vw)/2) - 382px) !important;
   }
   
   .homeButtonFromPause {
-    top: calc((100vh)/2 + 178px) !important;
-    left: calc((100vw)/2 - 15px) !important;
+    top: calc((100vh)/2 + 153px) !important;
+    left: calc((100vw)/2 - 65px) !important;
   }
   
   .resetButtonFromPause {
-    top: calc((100vh)/2 - 27px) !important;
-    left: calc((100vw)/2 - 15px) !important;
+    top: calc((100vh)/2 - 52px) !important;
+    left: calc((100vw)/2 - 65px) !important;
   }
   
   .resumeButtonFromPause {
-    top: calc((100vh)/2 - 225px) !important;
-    left: calc((100vw)/2 - 15px) !important;
+    top: calc((100vh)/2 - 250px) !important;
+    left: calc((100vw)/2 - 65px) !important;
   }
 
   .homeButtonFromScores {
-    top: calc(((100vh)/2) - 290px) !important;
-    left: calc(((100vw)/2) + 150px) !important;
+    top: calc(((100vh)/2) - 315px) !important;
+    left: calc(((100vw)/2) + 100px) !important;
   }
   
   .resetButtonFromScores {
-    top: calc(((100vh)/2) - 410px) !important;
-    left: calc(((100vw)/2) + 150px) !important;
+    top: calc(((100vh)/2) - 435px) !important;
+    left: calc(((100vw)/2) + 100px) !important;
   }
 
   .sendScoreButton {
-    top: calc(((100vh)/2) - 25px) !important;
-    left: calc(((100vw)/2) + 125px) !important;
+    top: calc(((100vh)/2) - 50px) !important;
+    left: calc(((100vw)/2) + 75px) !important;
   }
   
   .nameInput {
-    top: calc(((100vh)/2) - 150px) !important;
-    left: calc(((100vw)/2) - 25px) !important;
+    top: calc(((100vh)/2) - 175px) !important;
+    left: calc(((100vw)/2) - 75px) !important;
   }
   
   .donationOuterContainer {
@@ -78,7 +97,7 @@ body {
 canvas {
   display: block;
   position: absolute;
-  top: calc((100vh - 360px)/2);
+  top: calc((100vh - 360px)/2 - 25px);
   left: calc((100vw - 640px)/2);
 }
 
@@ -116,54 +135,54 @@ button {
 }
 
 .startButton {
-  top: calc(((100vh)/2) + 70px);
+  top: calc(((100vh)/2) + 45px);
   left: calc(((100vw)/2) + 170px);
 }
 
 .pauseButton {
-  top: calc(((100vh)/2) - 175px);
+  top: calc(((100vh)/2) - 200px);
   left: calc(((100vw)/2) + 282px);
 }
 
 .homeButtonFromScores {
   /* top: calc(((100vh)/2) + 70px);
   left: calc(((100vw)/2) + 170px); */
-  top: calc(((100vh)/2) + 70px);
+  top: calc(((100vh)/2) + 45px);
   left: calc(((100vw)/2) + 110px);
 }
 
 .homeButtonFromPause {
-  top: calc((100vh)/2 - 15px);
+  top: calc((100vh)/2 - 40px);
   left: calc(((100vw)/2) - 140px);
 }
 
 .highScoresButton {
-  top: calc(((100vh)/2) + 70px);
+  top: calc(((100vh)/2) + 45px);
   left: calc(((100vw)/2) - 150px);
 }
 
 .resetButton {
-  top: calc(((100vh)/2) + 50px);
+  top: calc(((100vh)/2) + 25px);
   left: calc(((100vw)/2) - 65px);
 }
 
 .resetButtonFromPause {
-  top: calc((100vh)/2 - 15px);
+  top: calc((100vh)/2 - 40px);
   left: calc((100vw)/2 - 27px);
 }
 
 .resetButtonFromScores {
-  top: calc(((100vh)/2) + 70px);
+  top: calc(((100vh)/2) + 45px);
   left: calc(((100vw)/2) + 170px);
 }
 
 .resumeButtonFromPause {
-  top: calc((100vh)/2 - 15px);
+  top: calc((100vh)/2 - 40px);
   left: calc(((100vw)/2) + 85px);
 }
 
 .sendScoreButton {
-  top: calc(((100vh)/2) + 70px);
+  top: calc(((100vh)/2) + 45px);
   left: calc(((100vw)/2) - 65px);
 }
 
@@ -173,7 +192,7 @@ button {
   position: absolute;
   border: 2px black solid;
   border-radius: 4px;
-  top: calc(((100vh)/2) + 13px);
+  top: calc(((100vh)/2) - 12px);
   left: calc(((100vw)/2) - 5px);
   width: 135px;
 }
@@ -190,6 +209,30 @@ button:disabled, input:disabled {
   display: block;
   width: 330px;
   height: 50px;
+}
+
+.gameAdLeft, .gameAdRight {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  position: absolute;
+  top: calc(((100vh)/2) + 156px);
+  width: 320px;
+  height: 50px;
+  /* left: calc(((100vw)/2) - 5px); */
+  /* display: block;
+  width: 330px;
+  height: 50px; */
+}
+
+.gameAdLeft {
+  left: calc(((100vw)/2));
+  /* background-color: pink; */
+}
+
+.gameAdRight {
+  left: calc(((100vw)/2) - 320px);
+  /* background-color: orange; */
 }
 
 .donation {
