@@ -266,8 +266,10 @@ nav {
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  // padding-bottom: 1em;
+  // border-bottom: none;
+  // padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .post {
@@ -293,6 +295,7 @@ nav {
 .bottompagination .navigation {
   display: block;
   padding: 35px 0 0 0;
+  margin-top: 2em;
   text-align: center;
   color: #999;
   border-top: 1px solid #ddd;
