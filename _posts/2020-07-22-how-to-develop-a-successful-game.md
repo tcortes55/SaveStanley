@@ -24,8 +24,6 @@ In the wake of the App Store and Play Store, when smartphones were a new thing a
 
 However, this market was rapidly occupied by companies that grew to be very large. Nowadays, the top picks from the app stores are dominated by these companies, who have the budget to maintain specialized teams for art, design, sound, software development, marketing, among others.
 
-{% include in-post-ad.html %}
-
 ## So, how can a solo developer try to join this rat race?
 
 I honestly don't have an answer for that. Also, different games require different strategies. But here's what I've been trying or planning to do:
@@ -39,6 +37,8 @@ I already spend 9-10 hours a day working in software development. I wouldn't be 
 When I first mentioned to my friends and co-workers that I was developing this little game, the response was great. The ones who watch _The Office_ immediately bought the idea and asked me to let them know as soon as it was avaible so they could try it. And the ones who don't know the show were still excited to try a game made by a friend of theirs.
 
 They then talked about it to other friends, who then talked to other friends, and so on.
+
+{% include in-post-ad.html %}
 
 ### Make your players compete (even in a single player game)
 
