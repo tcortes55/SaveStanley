@@ -91,13 +91,29 @@ let scoreBoardTimerCount = 0;
 let mapIndex = 0;
 let resetButtonVisible;
 
+const indexEnemyDwight = 0;
+const indexEnemyMichael = 1;
+const indexEnemyFlyingMichael = 2;
+const indexEnemyJim = 3;
+const indexEnemyAndy = 4;
+const indexEnemyFlyingCreed = 5;
+const indexEnemyPam = 6;
+const indexEnemyRyan = 7;
+const indexEnemyKelly = 8;
+const indexEnemyKevin = 9;
+const indexEnemyOscar = 10;
+const indexEnemyAngela = 11;
+const indexEnemyFlyingPrisonMike = 12;
+const indexEnemyMeredith = 13;
+const indexEnemyJimAsDwight = 14;
+
 const gameMap = [
   {
     levelMap: [
       {
         enemies: [
           {
-            enemyId: 0,
+            enemyId: indexEnemyDwight,
             speed: 8
           },
           // {
@@ -114,11 +130,11 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 0,
+            enemyId: indexEnemyDwight,
             speed: 8
           },
           {
-            enemyId: 1,
+            enemyId: indexEnemyJim,
             speed: 12
           },
           // {
@@ -131,32 +147,15 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 0,
-            speed: 8
-          },
-          // {
-          //   enemyId: 1,
-          //   speed: 12
-          // },
-          {
-            enemyId: 2,
-            speed: 15
-          }
-        ],
-        duration: 50
-      },
-      {
-        enemies: [
-          {
-            enemyId: 0,
+            enemyId: indexEnemyDwight,
             speed: 8
           },
           {
-            enemyId: 1,
+            enemyId: indexEnemyJim,
             speed: 12
           },
           {
-            enemyId: 2,
+            enemyId: indexEnemyFlyingMichael,
             speed: 15
           }
         ],
@@ -169,11 +168,11 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 3,
+            enemyId: indexEnemyAndy,
             speed: 8
           },
           {
-            enemyId: 4,
+            enemyId: indexEnemyMichael,
             speed: 12
           },
           // {
@@ -186,15 +185,15 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 3,
+            enemyId: indexEnemyAndy,
             speed: 7
           },
           {
-            enemyId: 4,
+            enemyId: indexEnemyMichael,
             speed: 14
           },
           {
-            enemyId: 5,
+            enemyId: indexEnemyFlyingCreed,
             speed: 10
           }
         ],
@@ -203,15 +202,15 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 3,
+            enemyId: indexEnemyAndy,
             speed: 8
           },
           {
-            enemyId: 4,
+            enemyId: indexEnemyMichael,
             speed: 15
           },
           {
-            enemyId: 5,
+            enemyId: indexEnemyFlyingCreed,
             speed: 10
           }
         ],
@@ -220,15 +219,15 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 3,
+            enemyId: indexEnemyAndy,
             speed: 8
           },
           {
-            enemyId: 4,
+            enemyId: indexEnemyMichael,
             speed: 14
           },
           {
-            enemyId: 5,
+            enemyId: indexEnemyFlyingCreed,
             speed: 10
           }
         ],
@@ -237,15 +236,15 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: 3,
+            enemyId: indexEnemyAndy,
             speed: 8
           },
           {
-            enemyId: 4,
+            enemyId: indexEnemyMichael,
             speed: 15
           },
           {
-            enemyId: 5,
+            enemyId: indexEnemyFlyingCreed,
             speed: 12
           }
         ],
@@ -255,43 +254,118 @@ const gameMap = [
   },
   {
     levelMap: [
-      // {
-      //   enemies: [
-      //     {
-      //       enemyId: 6,
-      //       speed: 12
-      //     },
-      //     {
-      //       enemyId: 8,
-      //       speed: 12
-      //     },
-      //     // {
-      //     //   enemyId: 5,
-      //     //   speed: 15
-      //     // }
-      //   ],
-      //   duration: 50
-      // },
       {
         enemies: [
           {
-            enemyId: 6,
+            enemyId: indexEnemyPam,
             speed: 8
           },
           {
-            enemyId: 7,
+            enemyId: indexEnemyDwight,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyJimAsDwight,
+            speed: 12
+          },
+          // {
+          //   enemyId: indexEnemyFlyingPrisonMike,
+          //   speed: 12
+          // }
+        ],
+        duration: 100
+      },
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyPam,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyDwight,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyJimAsDwight,
             speed: 12
           },
           {
-            enemyId: 8,
+            enemyId: indexEnemyFlyingPrisonMike,
+            speed: 15
+          }
+        ],
+        duration: 600
+      }
+    ]
+  },
+  {
+    levelMap: [
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyMeredith,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyRyan,
             speed: 12
           },
           {
-            enemyId: 2,
+            enemyId: indexEnemyKelly,
+            speed: 12
+          },
+          {
+            enemyId: indexEnemyFlyingMichael,
             speed: 15
           }
         ],
         duration: 5000
+      }
+    ]
+  },
+  {
+    levelMap: [
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyKevin,
+            speed: 7
+          },
+          {
+            enemyId: indexEnemyOscar,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyAngela,
+            speed: 14
+          },
+          // {
+          //   enemyId: indexEnemyFlyingPrisonMike,
+          //   speed: 12
+          // }
+        ],
+        duration: 100
+      },
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyKevin,
+            speed: 7
+          },
+          {
+            enemyId: indexEnemyOscar,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyAngela,
+            speed: 14
+          },
+          {
+            enemyId: indexEnemyFlyingPrisonMike,
+            speed: 12
+          }
+        ],
+        duration: 600
       }
     ]
   }
