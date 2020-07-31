@@ -212,6 +212,8 @@ function resetGame(scene) {
   resetButtonVisible = false;
 
   messageAllPretzels = new FloatingMessage("Pick up ALL pretzels to restore your first aid kit!", scenarioSpeed, 590, 105, 270, 65);
+  messageDoubleJump = new FloatingMessage("Tap twice to double jump!", scenarioSpeed, 1390, 105, 155, 65);
+  messageCrosswords = new FloatingMessage("Crosswords give +30 min and -50% stress level!", scenarioSpeed, 2090, 115, 275, 65);
 
   frameRate(30);
 }
@@ -624,6 +626,24 @@ function drawGame() {
 
     if (messageAllPretzels.x < -messageAllPretzels.boxWidth) {
       messageAllPretzels = null;
+    }
+  }
+
+  if (messageDoubleJump != null) {
+    messageDoubleJump.display();
+    messageDoubleJump.move();
+
+    if (messageDoubleJump.x < -messageDoubleJump.boxWidth) {
+      messageDoubleJump = null;
+    }
+  }
+
+  if (messageCrosswords != null) {
+    messageCrosswords.display();
+    messageCrosswords.move();
+
+    if (messageCrosswords.x < -messageCrosswords.boxWidth) {
+      messageCrosswords = null;
     }
   }
     
