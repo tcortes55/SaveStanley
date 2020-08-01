@@ -49,6 +49,8 @@ function preload() {
   imgEnemyFlyingPrisonMike = loadImage('images/enemies/flying-prison-mike.png');
   imgEnemyJimAsDwight = loadImage('images/enemies/jim-dwight.png');
   imgEnemyMeredith = loadImage('images/enemies/meredith.png');
+  imgEnemyToby = loadImage('images/enemies/toby.png');
+  imgEnemyFlyingPhyllis = loadImage('images/enemies/flying-phyllis.png');
   imgFirstAid = loadImage('images/assets/first-aid.png');
   imgFirstAidResponder = loadImage('images/assets/first-aid-responder.png');
   imgPretzel = loadImage('images/assets/pretzel.gif');
@@ -275,25 +277,47 @@ function createEnemies() {
   const enemyMeredith = new Enemy(michaelPositionMatrix, imgEnemyMeredith, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 8, 300);
   const enemyJimAsDwight = new Enemy(dwightPositionMatrix, imgEnemyJimAsDwight, width, 0, dwightWidth, dwightHeight, dwightWidth, dwightHeight, 8, 150);
   
-  enemies.push(enemyDwight);
-  enemies.push(enemyMichael);
-  enemies.push(enemyFlyingMichael);
-  
-  enemies.push(enemyJim);
+  const enemyToby = new Enemy(michaelPositionMatrix, imgEnemyToby, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 8, 300);
+  const enemyFlyingPhyllis = new Enemy(flyingMichaelPositionMatrix, imgEnemyFlyingPhyllis, width * 1.8, 200, flyingMichaelWidth/1.5, flyingMichaelHeight/1.5, flyingMichaelWidth, michaelHeight, 15, 200);
+
+  // 7
+  enemies.push(enemyKevin);
+
+  // 7, 8
   enemies.push(enemyAndy);
-  enemies.push(enemyFlyingCreed);
-  
+  enemies.push(enemyMeredith);
+
+  // 8
   enemies.push(enemyPam);
+  enemies.push(enemyToby);
+
+  // 8, 10
+  enemies.push(enemyDwight);
+
+  // 10
+  enemies.push(enemyOscar);
+  enemies.push(enemyFlyingPhyllis);
+
+  // 12
+  enemies.push(enemyJim);
   enemies.push(enemyRyan);
   enemies.push(enemyKelly);
-  
-  enemies.push(enemyKevin);
-  enemies.push(enemyOscar);
+  enemies.push(enemyJimAsDwight);
+
+  // 14
   enemies.push(enemyAngela);
+
+  // 10, 12, 15
+  enemies.push(enemyFlyingCreed);
+
+  // 12, 14, 15
+  enemies.push(enemyMichael);
+
+  //12, 15
   enemies.push(enemyFlyingPrisonMike);
 
-  enemies.push(enemyMeredith);
-  enemies.push(enemyJimAsDwight);
+  // 15
+  enemies.push(enemyFlyingMichael);
 }
 
 function draw() {
