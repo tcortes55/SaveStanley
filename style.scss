@@ -370,8 +370,8 @@ footer {
 
 .small-ad-container {
   margin: auto;
-  width: 320px;
-  height: 50px;
+  max-width: 320px;
+  max-height: 50px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
