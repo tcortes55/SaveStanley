@@ -49,6 +49,8 @@ function preload() {
   imgEnemyFlyingPrisonMike = loadImage('images/enemies/flying-prison-mike.png');
   imgEnemyJimAsDwight = loadImage('images/enemies/jim-dwight.png');
   imgEnemyMeredith = loadImage('images/enemies/meredith.png');
+  imgEnemyToby = loadImage('images/enemies/toby.png');
+  imgEnemyFlyingPhyllis = loadImage('images/enemies/flying-phyllis.png');
   imgFirstAid = loadImage('images/assets/first-aid.png');
   imgFirstAidResponder = loadImage('images/assets/first-aid-responder.png');
   imgPretzel = loadImage('images/assets/pretzel.gif');
@@ -275,6 +277,9 @@ function createEnemies() {
   const enemyMeredith = new Enemy(michaelPositionMatrix, imgEnemyMeredith, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 8, 300);
   const enemyJimAsDwight = new Enemy(dwightPositionMatrix, imgEnemyJimAsDwight, width, 0, dwightWidth, dwightHeight, dwightWidth, dwightHeight, 8, 150);
   
+  const enemyToby = new Enemy(michaelPositionMatrix, imgEnemyToby, width * 1.5, 5, michaelWidth, michaelHeight, michaelWidth, michaelHeight, 8, 300);
+  const enemyFlyingPhyllis = new Enemy(flyingMichaelPositionMatrix, imgEnemyFlyingPhyllis, width * 1.8, 200, flyingMichaelWidth/1.5, flyingMichaelHeight/1.5, flyingMichaelWidth, michaelHeight, 15, 200);
+
   enemies.push(enemyDwight);
   enemies.push(enemyMichael);
   enemies.push(enemyFlyingMichael);
@@ -294,6 +299,9 @@ function createEnemies() {
 
   enemies.push(enemyMeredith);
   enemies.push(enemyJimAsDwight);
+
+  enemies.push(enemyToby);
+  enemies.push(enemyFlyingPhyllis);
 }
 
 function draw() {

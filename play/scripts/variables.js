@@ -106,6 +106,8 @@ const indexEnemyAngela = 11;
 const indexEnemyFlyingPrisonMike = 12;
 const indexEnemyMeredith = 13;
 const indexEnemyJimAsDwight = 14;
+const indexEnemyToby = 15;
+const indexEnemyFlyingPhyllis = 16;
 
 const gameMap = [
   {
@@ -303,7 +305,7 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: indexEnemyMeredith,
+            enemyId: indexEnemyToby,
             speed: 8
           },
           {
@@ -366,6 +368,48 @@ const gameMap = [
           }
         ],
         duration: 600
+      }
+    ]
+  },
+  {
+    levelMap: [
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyMeredith,
+            speed: 7
+          },
+          {
+            enemyId: indexEnemyMichael,
+            speed: 12
+          },
+          {
+            enemyId: indexEnemyFlyingPhyllis,
+            speed: 10
+          }
+        ],
+        duration: 200
+      },
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyMeredith,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyMichael,
+            speed: 12
+          },
+          {
+            enemyId: indexEnemyFlyingCreed,
+            speed: 15
+          },
+          {
+            enemyId: indexEnemyFlyingPhyllis,
+            speed: 10
+          }
+        ],
+        duration: 500
       }
     ]
   }
