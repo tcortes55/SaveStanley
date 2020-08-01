@@ -91,26 +91,27 @@ let scoreBoardTimerCount = 0;
 let mapIndex = 0;
 let resetButtonVisible;
 
-const indexEnemyDwight = 0;
-const indexEnemyMichael = 1;
-const indexEnemyFlyingMichael = 2;
-const indexEnemyJim = 3;
-const indexEnemyAndy = 4;
-const indexEnemyFlyingCreed = 5;
-const indexEnemyPam = 6;
-const indexEnemyRyan = 7;
-const indexEnemyKelly = 8;
-const indexEnemyKevin = 9;
-const indexEnemyOscar = 10;
-const indexEnemyAngela = 11;
-const indexEnemyFlyingPrisonMike = 12;
-const indexEnemyMeredith = 13;
-const indexEnemyJimAsDwight = 14;
-const indexEnemyToby = 15;
-const indexEnemyFlyingPhyllis = 16;
+const indexEnemyKevin = 0;
+const indexEnemyAndy = 1;
+const indexEnemyMeredith = 2;
+const indexEnemyPam = 3;
+const indexEnemyToby = 4;
+const indexEnemyDwight = 5;
+const indexEnemyOscar = 6;
+const indexEnemyFlyingPhyllis = 7;
+const indexEnemyJim = 8;
+const indexEnemyRyan = 9;
+const indexEnemyKelly = 10;
+const indexEnemyJimAsDwight = 11;
+const indexEnemyAngela = 12;
+const indexEnemyFlyingCreed = 13;
+const indexEnemyMichael = 14;
+const indexEnemyFlyingPrisonMike = 15;
+const indexEnemyFlyingMichael = 16;
 
 const gameMap = [
   {
+    // Dwight, Jim + Michael
     levelMap: [
       {
         enemies: [
@@ -166,6 +167,54 @@ const gameMap = [
     ]
   },
   {
+    // Pam, Dwight, Jim + Prison Mike
+    levelMap: [
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyPam,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyDwight,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyJimAsDwight,
+            speed: 12
+          },
+          // {
+          //   enemyId: indexEnemyFlyingPrisonMike,
+          //   speed: 12
+          // }
+        ],
+        duration: 100
+      },
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyPam,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyDwight,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyJimAsDwight,
+            speed: 12
+          },
+          {
+            enemyId: indexEnemyFlyingPrisonMike,
+            speed: 15
+          }
+        ],
+        duration: 600
+      }
+    ]
+  },
+  {
+    // Andy, Michael + Creed
     levelMap: [
       {
         enemies: [
@@ -255,52 +304,7 @@ const gameMap = [
     ]
   },
   {
-    levelMap: [
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyPam,
-            speed: 8
-          },
-          {
-            enemyId: indexEnemyDwight,
-            speed: 10
-          },
-          {
-            enemyId: indexEnemyJimAsDwight,
-            speed: 12
-          },
-          // {
-          //   enemyId: indexEnemyFlyingPrisonMike,
-          //   speed: 12
-          // }
-        ],
-        duration: 100
-      },
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyPam,
-            speed: 8
-          },
-          {
-            enemyId: indexEnemyDwight,
-            speed: 10
-          },
-          {
-            enemyId: indexEnemyJimAsDwight,
-            speed: 12
-          },
-          {
-            enemyId: indexEnemyFlyingPrisonMike,
-            speed: 15
-          }
-        ],
-        duration: 600
-      }
-    ]
-  },
-  {
+    // Toby, Ryan, Kelly + Michael
     levelMap: [
       {
         enemies: [
@@ -326,6 +330,7 @@ const gameMap = [
     ]
   },
   {
+    // Kevin, Oscar, Angela + Prison Mike
     levelMap: [
       {
         enemies: [
@@ -372,6 +377,7 @@ const gameMap = [
     ]
   },
   {
+    // Meredith, Michael + Phyllis, Creed
     levelMap: [
       {
         enemies: [
@@ -388,7 +394,7 @@ const gameMap = [
             speed: 10
           }
         ],
-        duration: 200
+        duration: 100
       },
       {
         enemies: [
@@ -409,7 +415,7 @@ const gameMap = [
             speed: 10
           }
         ],
-        duration: 500
+        duration: 700
       }
     ]
   }
