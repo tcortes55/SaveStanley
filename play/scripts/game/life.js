@@ -44,8 +44,20 @@ class Life {
     increaseBpm() {
         this.textSize = 30;
         if (this.bpm <= maxBpm){
-            let bpmIncrease = Math.floor(Math.random() * 5) + 1;
-            // let bpmIncrease = 1;
+            let bpmRandomFactor = 5;
+
+            // if (this.bpm > 70 && this.bpm <= 80) {
+            //     bpmRandomFactor = 4;
+            // }
+            // else 
+            if (this.bpm > 80 && this.bpm <= 90) {
+                bpmRandomFactor = 3;
+            }
+            else if (this.bpm > 90) {
+                bpmRandomFactor = 2;
+            }
+
+            let bpmIncrease = Math.floor(Math.random() * bpmRandomFactor) + 1;
 
             if ((this.bpm + bpmIncrease) <= maxBpm) {
                 this.bpm = this.bpm + bpmIncrease;
