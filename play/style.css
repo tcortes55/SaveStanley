@@ -90,7 +90,7 @@ html, body {
 }
 
 body {
-  touch-action: manipulation;
+  touch-action: none;
   background-color: black;
 }
 
