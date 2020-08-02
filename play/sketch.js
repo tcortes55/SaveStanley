@@ -207,7 +207,7 @@ function resetGame(scene) {
   });
 
   readHighScores(5, false);
-  let stringScore = localStorage.getItem('currentUserHighScore');
+  let stringScore = localStorage.getItem('currentUserHighScoreV2');
   currentUserHighScore = JSON.parse(stringScore);
 
   isGameStopped = false;
@@ -219,6 +219,11 @@ function resetGame(scene) {
   messageAllPretzels = new FloatingMessage("Pick up ALL pretzels to restore your first aid kit!", scenarioSpeed, 590, 105, 270, 65);
   messageDoubleJump = new FloatingMessage("Tap twice to double jump!", scenarioSpeed, 1390, 105, 155, 65);
   messageCrosswords = new FloatingMessage("Crosswords give +30 min and -50% stress level!", scenarioSpeed, 2090, 115, 275, 65);
+
+  gameMessages = [];
+  gameMessages.push(messageAllPretzels);
+  gameMessages.push(messageDoubleJump);
+  gameMessages.push(messageCrosswords);
 
   frameRate(30);
 }
@@ -354,10 +359,13 @@ function stopGame(type) {
     enemy.stop();
   });
 
-
   if (type === typeDeath) {
     scenario.stop();
     character.changeState(typeDeath);
+
+    gameMessages.forEach(gameMessage => {
+      gameMessage.stop();
+    })
 
     if (!life.firstAidHasDecreased) {
       isGameOver = life.decreaseFirstAid();
@@ -416,6 +424,10 @@ function resumeGame() {
   enemies.forEach(enemy => {
     enemy.restart();
   });
+
+  gameMessages.forEach(gameMessage => {
+    gameMessage.restart();
+  })
 }
 
 function isBusinessHours() {
@@ -585,12 +597,7 @@ function drawEnd() {
       );
     }
 
-    let minHighScore = 0;
-    if (highScores[4] != null) {
-      minHighScore = highScores[4].totalScore
-    }
-
-    if(currentUserHighScore == null || score.totalScore > currentUserHighScore.totalScore || score.totalScore > minHighScore) {
+    if(currentUserHighScore == null || score.totalScore > currentUserHighScore.totalScore) {
       drawWhiteBoard(0);
       drawHighScoreInput(0);  
     }
@@ -926,7 +933,7 @@ function drawHighScoreInput(offsetX) {
           currentUserHighScore.setDocId(result.id);
         }
         
-        localStorage.setItem('currentUserHighScore', JSON.stringify(currentUserHighScore));
+        localStorage.setItem('currentUserHighScoreV2', JSON.stringify(currentUserHighScore));
 
         readHighScores(5, true);
       })
