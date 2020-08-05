@@ -69,6 +69,7 @@ function preload() {
   deathTheme = loadSound('sounds/death.wav');
   endTheme = loadSound('sounds/end.mp3');
   firstAidTheme = loadSound('sounds/death-michael.mp3');
+  stanleyYellsAtRyanTheme = loadSound('sounds/stanley-yells-at-ryan-2.mp3');
   
   jumpTheme.setVolume(0.7);
   powerUpTheme.setVolume(0.1);
@@ -76,6 +77,7 @@ function preload() {
   deathTheme.setVolume(0.5);
   endTheme.setVolume(0.5);
   firstAidTheme.setVolume(0.5);
+  stanleyYellsAtRyanTheme.setVolume(0.5);
   // jumpTheme.setVolume(0);
   // powerUpTheme.setVolume(0);
   // failTheme.setVolume(0);
@@ -753,6 +755,13 @@ function drawGame() {
         let currentSpeed = currentEnemies.filter(function (item) {return item.enemyId === enemies.indexOf(enemy)})[0].speed;
 
         enemy.setSpeed(currentSpeed);
+
+        if (enemies.indexOf(enemy) === indexEnemyRyan) {
+          const enemyDistance = 190;
+          if (enemy.x > character.x + enemyDistance && enemy.x < character.x + enemyDistance + enemy.speed) {
+            stanleyYellsAtRyanTheme.play();
+          }
+        }
 
         if (character.isColliding(enemy) && !isGameStopped) {
           if (!enemy.hasCollided) {
