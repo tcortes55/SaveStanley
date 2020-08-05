@@ -68,12 +68,14 @@ function preload() {
   failTheme = loadSound('sounds/fail.mp3');
   deathTheme = loadSound('sounds/death.wav');
   endTheme = loadSound('sounds/end.mp3');
+  firstAidTheme = loadSound('sounds/death-michael.mp3');
   
   jumpTheme.setVolume(0.7);
   powerUpTheme.setVolume(0.1);
   failTheme.setVolume(0.7);
   deathTheme.setVolume(0.5);
   endTheme.setVolume(0.5);
+  firstAidTheme.setVolume(0.5);
   // jumpTheme.setVolume(0);
   // powerUpTheme.setVolume(0);
   // failTheme.setVolume(0);

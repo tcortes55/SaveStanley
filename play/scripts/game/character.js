@@ -60,6 +60,14 @@ class Character extends Animation {
 
             if (!isGameStopped) {
                 deathTheme.play();
+
+                if (life.firstAid > 0) {
+                    function playFirstAidTheme() {
+                        firstAidTheme.play();
+                    }
+    
+                    setTimeout(playFirstAidTheme, 500);
+                }
             }
             this.img = this.imgDead;
             this.lieDown();
