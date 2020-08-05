@@ -995,7 +995,3 @@ function buildCrosswordsPositionMatrix() {
   crosswordsPositionMatrix.push([2000, 100]);
   crosswordsPositionMatrix.push([11000, 100]);
 }
-
-// function touchStarted() {
-//   getAudioContext().resume();
-// }
