@@ -13,6 +13,7 @@ class Enemy extends Animation {
         this.floor = this.initialY;
         this.jumpSpeed = 0;
         this.gravity = 2;
+        this.hasJumped = false;
     }
 
     setSpeed(newValue) {

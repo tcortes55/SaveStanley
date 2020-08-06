@@ -755,10 +755,19 @@ function drawGame() {
         enemy.setSpeed(currentSpeed);
         
 
-        if (score.scoreDay % 7 === 0) {
+        if (score.scoreDay % 1 === 0) {
           enemy.applyGravity()
-          if (enemy.y === enemy.initialY){
-            enemy.jump();
+          if (enemy.y === enemy.initialY && enemy.hasJumped == false){
+            // enemy.jump();
+              enemy.hasJumped = true;
+
+            function enemyJump() {
+              enemy.jump();
+              enemy.hasJumped = false;
+            }
+
+            setTimeout(enemyJump, enemy.speed * 100 * 2);
+
           }
         }
 
