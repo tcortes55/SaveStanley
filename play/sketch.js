@@ -753,6 +753,14 @@ function drawGame() {
         let currentSpeed = currentEnemies.filter(function (item) {return item.enemyId === enemies.indexOf(enemy)})[0].speed;
 
         enemy.setSpeed(currentSpeed);
+        
+
+        if (score.scoreDay % 7 === 0) {
+          enemy.applyGravity()
+          if (enemy.y === enemy.initialY){
+            enemy.jump();
+          }
+        }
 
         if (character.isColliding(enemy) && !isGameStopped) {
           if (!enemy.hasCollided) {
