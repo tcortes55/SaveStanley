@@ -754,7 +754,7 @@ function drawGame() {
         enemy.setSpeed(currentSpeed);
         
 
-        if (score.scoreDay % 1 === 0) {
+        if (score.scoreDay % 7 === 0) {
           enemy.applyGravity()
           if (enemy.y === enemy.initialY && enemy.hasJumped == false && !isGameStopped) {
               enemy.hasJumped = true;
