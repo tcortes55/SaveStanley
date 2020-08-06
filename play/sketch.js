@@ -76,11 +76,10 @@ function preload() {
   deathTheme.setVolume(0.5);
   endTheme.setVolume(0.5);
   firstAidTheme.setVolume(0.5);
-  // jumpTheme.setVolume(0);
-  // powerUpTheme.setVolume(0);
-  // failTheme.setVolume(0);
-  // deathTheme.setVolume(0);
-  // endTheme.setVolume(0);
+  
+  parkourMichaelTheme = loadSound('sounds/parkour-michael.mp3');
+  parkourDwightTheme = loadSound('sounds/parkour-dwight.mp3');
+  parkourAndyTheme = loadSound('sounds/parkour-andy.mp3');
 }
 
 function setup() {
@@ -757,8 +756,7 @@ function drawGame() {
 
         if (score.scoreDay % 1 === 0) {
           enemy.applyGravity()
-          if (enemy.y === enemy.initialY && enemy.hasJumped == false){
-            // enemy.jump();
+          if (enemy.y === enemy.initialY && enemy.hasJumped == false && !isGameStopped) {
               enemy.hasJumped = true;
 
             function enemyJump() {
@@ -766,7 +764,22 @@ function drawGame() {
               enemy.hasJumped = false;
             }
 
-            setTimeout(enemyJump, enemy.speed * 100 * 2);
+            function enemyPlayJumpTheme() {
+              switch (enemies.indexOf(enemy)) {
+                case indexEnemyMichael:
+                    parkourMichaelTheme.play();
+                    break;
+                case indexEnemyDwight:
+                    parkourDwightTheme.play();
+                    break;
+                case indexEnemyAndy:
+                    parkourAndyTheme.play();
+                    break;
+              }
+            }
+
+            setTimeout(enemyJump, (1 / enemy.speed * 100) * 100 * 2.5);
+            setTimeout(enemyPlayJumpTheme, (1 / enemy.speed * 100) * 100 * 2.5 - 500);
 
           }
         }
