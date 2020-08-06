@@ -418,6 +418,28 @@ const gameMap = [
         duration: 700
       }
     ]
+  },
+  {
+    // Dwight, Andy, Michael PARKOUR
+    levelMap: [
+      {
+        enemies: [
+          {
+            enemyId: indexEnemyAndy,
+            speed: 8
+          },
+          {
+            enemyId: indexEnemyDwight,
+            speed: 10
+          },
+          {
+            enemyId: indexEnemyMichael,
+            speed: 12
+          }
+        ],
+        duration: 5000
+      }
+    ]
   }
 ]
 

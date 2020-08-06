@@ -7,6 +7,13 @@ class Enemy extends Animation {
         this.speed = speed;
         this.delay = delay;
         this.hasCollided = false;
+
+        this.initialY = height - this.characterHeight - this.offsetY;
+        this.y = this.initialY;
+        this.floor = this.initialY;
+        this.jumpSpeed = 0;
+        this.gravity = 2;
+        this.hasJumped = false;
     }
 
     setSpeed(newValue) {
@@ -31,5 +38,22 @@ class Enemy extends Animation {
         this.x = this.originalX;
         this.setSpeed(this.originalSpeed);
         this.animate();
+    }
+
+    jump() {
+        // jumpTheme.play();
+        this.jumpSpeed = -30;
+    }
+
+    applyGravity() {
+        this.y = this.y + this.jumpSpeed;
+        this.jumpSpeed = this.jumpSpeed + this.gravity;
+
+        if (this.y > this.floor)
+        {
+            this.y = this.floor;
+            this.jumpCount = 0;
+        }
+
     }
 }
