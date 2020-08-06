@@ -89,6 +89,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-- name: Auto Minify
-  uses: nizarmah/auto-minify@v1.9
