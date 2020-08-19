@@ -122,47 +122,18 @@ const gameMap = [
           {
             enemyId: indexEnemyJim,
             speed: 12
-          },
-          {
-            enemyId: indexEnemyFlyingMichael,
-            speed: 15
           }
         ],
         duration: 50
       },
       {
         enemies: [
-          {
-            enemyId: indexEnemyPam,
-            speed: 8
-          },
           {
             enemyId: indexEnemyDwight,
-            speed: 10
-          },
-          {
-            enemyId: indexEnemyJimAsDwight,
-            speed: 12
-          },
-          {
-            enemyId: indexEnemyFlyingPrisonMike,
-            speed: 15
-          }
-        ],
-        duration: 50
-      },
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyToby,
             speed: 8
           },
           {
-            enemyId: indexEnemyRyan,
-            speed: 12
-          },
-          {
-            enemyId: indexEnemyKelly,
+            enemyId: indexEnemyJim,
             speed: 12
           },
           {
@@ -170,28 +141,7 @@ const gameMap = [
             speed: 15
           }
         ],
-        duration: 50
-      },
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyKevin,
-            speed: 7
-          },
-          {
-            enemyId: indexEnemyOscar,
-            speed: 10
-          },
-          {
-            enemyId: indexEnemyAngela,
-            speed: 14
-          },
-          {
-            enemyId: indexEnemyFlyingPrisonMike,
-            speed: 12
-          }
-        ],
-        duration: 50
+        duration: 5000
       }
     ]
   },
@@ -273,7 +223,7 @@ const gameMap = [
             speed: 14
           },
           {
-            enemyId: indexEnemyFlyingCreed,
+            enemyId: indexEnemyFlyingMichael,
             speed: 10
           }
         ],
@@ -290,7 +240,7 @@ const gameMap = [
             speed: 15
           },
           {
-            enemyId: indexEnemyFlyingCreed,
+            enemyId: indexEnemyFlyingMichael,
             speed: 10
           }
         ],
@@ -307,7 +257,7 @@ const gameMap = [
             speed: 14
           },
           {
-            enemyId: indexEnemyFlyingCreed,
+            enemyId: indexEnemyFlyingMichael,
             speed: 10
           }
         ],
@@ -324,7 +274,7 @@ const gameMap = [
             speed: 15
           },
           {
-            enemyId: indexEnemyFlyingCreed,
+            enemyId: indexEnemyFlyingMichael,
             speed: 12
           }
         ],
@@ -350,7 +300,7 @@ const gameMap = [
             speed: 12
           },
           {
-            enemyId: indexEnemyFlyingMichael,
+            enemyId: indexEnemyFlyingCreed,
             speed: 15
           }
         ],

@@ -34,22 +34,22 @@ function preload() {
   imgCharacter = loadImage('images/character/neymar.png');
   imgCharacterDead = loadImage('images/character/neymar-dead.png');
   imgCharacterWin = loadImage('images/character/neymar-finished.png');
-  imgEnemyDwight = loadImage('images/enemies/dwight.png');
-  imgEnemyMichael = loadImage('images/enemies/michael.png');
-  imgEnemyFlyingMichael = loadImage('images/enemies/flying-michael.png');
-  imgEnemyJim = loadImage('images/enemies/jim.png');
-  imgEnemyAndy = loadImage('images/enemies/andy.png');
-  imgEnemyFlyingCreed = loadImage('images/enemies/flying-creed.png');
-  imgEnemyPam = loadImage('images/enemies/pam.png');
-  imgEnemyRyan = loadImage('images/enemies/ryan.png');
-  imgEnemyKelly = loadImage('images/enemies/kelly.png');
-  imgEnemyKevin = loadImage('images/enemies/kevin.png');
-  imgEnemyOscar = loadImage('images/enemies/oscar.png');
-  imgEnemyAngela = loadImage('images/enemies/angela.png');
-  imgEnemyFlyingPrisonMike = loadImage('images/enemies/flying-prison-mike.png');
-  imgEnemyJimAsDwight = loadImage('images/enemies/jim-dwight.png');
+  imgEnemyDwight = loadImage('images/enemies/futebol/messi.png');
+  imgEnemyMichael = loadImage('images/enemies/futebol/muller.png');
+  imgEnemyFlyingMichael = loadImage('images/enemies/futebol/flying-modric.png');
+  imgEnemyJim = loadImage('images/enemies/futebol/cr7.png');
+  imgEnemyAndy = loadImage('images/enemies/futebol/fagner.png');
+  imgEnemyFlyingCreed = loadImage('images/enemies/futebol/flying-pikachu.png');
+  imgEnemyPam = loadImage('images/enemies/futebol/lewa.png');
+  imgEnemyRyan = loadImage('images/enemies/futebol/ganso.png');
+  imgEnemyKelly = loadImage('images/enemies/futebol/gabigol.png');
+  imgEnemyKevin = loadImage('images/enemies/futebol/salah.png');
+  imgEnemyOscar = loadImage('images/enemies/futebol/cr7.png');
+  imgEnemyAngela = loadImage('images/enemies/futebol/messi.png');
+  imgEnemyFlyingPrisonMike = loadImage('images/enemies/futebol/flying-van-dijk.png');
+  imgEnemyJimAsDwight = loadImage('images/enemies/futebol/firmino.png');
   imgEnemyMeredith = loadImage('images/enemies/meredith.png');
-  imgEnemyToby = loadImage('images/enemies/toby.png');
+  imgEnemyToby = loadImage('images/enemies/futebol/honda.png');
   imgEnemyFlyingPhyllis = loadImage('images/enemies/flying-phyllis.png');
   imgFirstAid = loadImage('images/assets/first-aid.png');
   imgFirstAidResponder = loadImage('images/assets/first-aid-responder.png');
@@ -68,14 +68,14 @@ function preload() {
   failTheme = loadSound('sounds/fail.mp3');
   deathTheme = loadSound('sounds/death.wav');
   endTheme = loadSound('sounds/end.mp3');
-  firstAidTheme = loadSound('sounds/death-michael.mp3');
+  // firstAidTheme = loadSound('sounds/death-michael.mp3');
   
   jumpTheme.setVolume(0.7);
   powerUpTheme.setVolume(0.1);
   failTheme.setVolume(0.7);
   deathTheme.setVolume(0.5);
   endTheme.setVolume(0.5);
-  firstAidTheme.setVolume(0.5);
+  // firstAidTheme.setVolume(0.5);
   
   parkourMichaelTheme = loadSound('sounds/parkour-michael.mp3');
   parkourDwightTheme = loadSound('sounds/parkour-dwight.mp3');
@@ -443,7 +443,7 @@ function isBusinessHours() {
 function drawPauseMenu() {
   drawWhiteBoard(0);
   
-  let title = "Game paused";
+  let title = "Pause";
   
   P5Style.titleStyle();
   text(title, width/2, height * 1/6 + 35);
@@ -918,7 +918,7 @@ function drawScoreBoard(title, offsetX) {
   rect(width * 1/4 + offsetX, 240, width * 1/2, height * 1/7, 10);
   
   P5Style.clockCountStyle();
-  text("Total score:", 190 + offsetX, height * 1/6 + 215);
+  text("Total:", 190 + offsetX, height * 1/6 + 215);
   textAlign(RIGHT);
   text(score.totalScore, 430 + offsetX, height * 1/6 + 215);
 }

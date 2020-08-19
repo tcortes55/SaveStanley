@@ -53,43 +53,58 @@ class Score {
             this.imgClock = this.imgClockNormal;
         }
 
-        image(this.imgClock, width - 145, 7, 30, 30);
+        if (this.scoreDay < 6) {
+            image(this.imgClock, width - 145, 7, 30, 30);
 
-        text(this.n(this.scoreMinuteFootball.toFixed(0)) + "'" + this.n(this.scoreSecondFootball.toFixed(0)) + "\"", width-110, 30);
+            text(this.n(this.scoreMinuteFootball.toFixed(0)) + "'" + this.n(this.scoreSecondFootball.toFixed(0)) + "\"", width-110, 30);
+        }
 
-        text(this.n(this.scoreHour) + "h" + this.n(this.scoreMinute), width - 110, 60);
+        // text(this.n(this.scoreHour) + "h" + this.n(this.scoreMinute), width - 110, 60);
     }
 
     increaseScore() {
         this.scoreSecond = this.scoreSecond + this.timeStepSecond;
-        if (this.scoreSecond >= 60) {
-            this.scoreMinute = this.scoreMinute + this.timeStepMinute;
-            this.scoreSecond = 0;
 
-            if (this.scoreMinute >= 60) {
-                this.scoreHour = this.scoreHour + this.timeStepHour;
-                this.scoreMinute = 0;
-
-                if (this.scoreHour >= 17 || this.scoreHour < 9) {
-                    this.timeStepSecond = 60;
-                    this.timeStepMinute = 3;
-                }
-                else {
-                    this.timeStepSecond = 9;
-                    this.timeStepMinute = 1;
-                }
-
-                if (this.scoreHour > 23) {
-                    this.dayToBeIncremented = true;;
-                    this.scoreHour = 0;
-                }
-                else if (this.scoreHour === 9 && this.dayToBeIncremented === true) {
-                    this.scoreDay++;
-                    this.dayToBeIncremented = false;
+        if (this.scoreDay < 6) {
+            if (this.scoreSecond >= 60) {
+                this.scoreMinute = this.scoreMinute + this.timeStepMinute;
+                this.scoreSecond = 0;
+                
+                if (this.scoreMinute >= 60) {
+                    this.scoreHour = this.scoreHour + this.timeStepHour;
+                    this.scoreMinute = 0;
+                    
+                    if (this.scoreHour >= 17 || this.scoreHour < 9) {
+                        this.timeStepSecond = 60;
+                        this.timeStepMinute = 3;
+                    }
+                    else {
+                        this.timeStepSecond = 9;
+                        this.timeStepMinute = 1;
+                    }
+                    
+                    if (this.scoreHour > 23) {
+                        this.dayToBeIncremented = true;;
+                        this.scoreHour = 0;
+                    }
+                    else if (this.scoreHour === 9 && this.dayToBeIncremented === true) {
+                        this.scoreDay++;
+                        this.dayToBeIncremented = false;
+                    }
                 }
             }
         }
+        else {
+            this.scoreHour = 9;
+            this.timeStepSecond = 9;
+            this.timeStepMinute = 1;
 
+            if (this.scoreSecond >= 60) {
+                this.scoreMinute = this.scoreMinute + this.timeStepMinute;
+                this.scoreSecond = 0;
+            }
+        }
+        
         this.scoreMinuteFootball = (((this.scoreHour - 9) * 60 + this.scoreMinute) * 90/480);
         this.scoreSecondFootball = ((((this.scoreHour - 9) * 60 + this.scoreMinute) * 60 + this.scoreSecond) * 90/480) % 60;
         if (this.scoreMinuteFootball >= 90 || this.scoreMinuteFootball < 0) {
