@@ -1,0 +1,1 @@
+class HighScore{constructor(t,s,o,i,c,e,r,h,l,a){this.name=t,this.totalScore=s,this.scoreDay=o,this.scoreHour=i,this.scoreMinute=c,this.totalPretzels=e,this.totalCrosswords=r,this.totalDaysAllPretzelsPicked=h,this.totalFirstAidOccurrences=l,this.docId=a}setDocId(t){this.docId=t}}
