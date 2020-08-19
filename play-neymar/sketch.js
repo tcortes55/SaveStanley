@@ -30,7 +30,7 @@ function keyPressed() {
 }
 
 function preload() {
-  imgScenario = loadImage('images/scenario/background.png');
+  imgScenario = loadImage('images/scenario/background.jpg');
   imgCharacter = loadImage('images/character/stanley.png');
   imgCharacterDead = loadImage('images/character/dead.png');
   imgCharacterWin = loadImage('images/character/finished.png');
@@ -219,7 +219,7 @@ function resetGame(scene) {
 
   messageAllPretzels = new FloatingMessage("Marque TODOS os gols p/ restaurar o kit primeiros socorros!", scenarioSpeed, 590, 105, 380, 65);
   messageDoubleJump = new FloatingMessage("Aperte 2x p/ salto duplo!", scenarioSpeed, 1390, 105, 155, 65);
-  messageCrosswords = new FloatingMessage("Crosswords give +30 min and -50% stress level!", scenarioSpeed, 2090, 115, 275, 65);
+  messageCrosswords = new FloatingMessage("Caixinha JBL te recupera de lesão e adianta o tempo!", scenarioSpeed, 2090, 115, 320, 65);
 
   gameMessages = [];
   gameMessages.push(messageAllPretzels);
@@ -480,7 +480,7 @@ function drawMenu() {
   
   previousHeight = newHeight;
   newHeight = previousHeight + 35;
-  text("Cada bola é um gol. Evite trombar com os adversários para\nnão se lesionar. A caxinha JBL ajuda na recuperação! (afinal quem não gosta de um pagodiho?)",  140, newHeight);
+  text("Cada bola é um gol. Evite trombar com os adversários para\nnão se lesionar. A caxinha JBL ajuda na recuperação!",  140, newHeight);
   
   previousHeight = newHeight;
   newHeight = previousHeight + 40;
