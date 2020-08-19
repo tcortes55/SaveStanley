@@ -31,9 +31,9 @@ function keyPressed() {
 
 function preload() {
   imgScenario = loadImage('images/scenario/background.jpg');
-  imgCharacter = loadImage('images/character/stanley.png');
-  imgCharacterDead = loadImage('images/character/dead.png');
-  imgCharacterWin = loadImage('images/character/finished.png');
+  imgCharacter = loadImage('images/character/neymar.png');
+  imgCharacterDead = loadImage('images/character/neymar-dead.png');
+  imgCharacterWin = loadImage('images/character/neymar-finished.png');
   imgEnemyDwight = loadImage('images/enemies/dwight.png');
   imgEnemyMichael = loadImage('images/enemies/michael.png');
   imgEnemyFlyingMichael = loadImage('images/enemies/flying-michael.png');
@@ -893,7 +893,7 @@ function drawScoreBoard(title, offsetX) {
   // else {
   //   clockTime = "17h00";
   // }
-  clockTime = score.n(score.scoreMinuteFootball.toFixed(0)) + "'" + score.n(score.scoreSecondFootball.toFixed(0) + "\"");
+  clockTime = score.n(score.scoreMinuteFootball.toFixed(0)) + "'" + score.n(score.scoreSecondFootball.toFixed(0)) + "\"";
 
   image(imgClock, 200 + offsetX, height * 1/6 + 55, 30, 30);
   P5Style.clockCountStyle();

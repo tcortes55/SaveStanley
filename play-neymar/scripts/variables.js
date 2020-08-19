@@ -473,7 +473,7 @@ const gameMap = [
 ]
 
 const stanleyWidth = 90;
-const stanleyHeight = 125;
+const stanleyHeight = 145;
 const dwightWidth = 90;
 const dwightHeight = 145;
 const michaelWidth = 90;
