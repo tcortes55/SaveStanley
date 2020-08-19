@@ -54,9 +54,10 @@ class Score {
         }
 
         image(this.imgClock, width - 145, 7, 30, 30);
-        text(this.n(this.scoreHour) + "h" + this.n(this.scoreMinute), width - 110, 30);
 
-        text(this.n(this.scoreMinuteFootball.toFixed(0)) + "," + this.n(this.scoreSecondFootball.toFixed(0)), width-110, 60);
+        text(this.n(this.scoreMinuteFootball.toFixed(0)) + "'" + this.n(this.scoreSecondFootball.toFixed(0)) + "\"", width-110, 30);
+
+        text(this.n(this.scoreHour) + "h" + this.n(this.scoreMinute), width - 110, 60);
     }
 
     increaseScore() {
@@ -91,6 +92,10 @@ class Score {
 
         this.scoreMinuteFootball = (((this.scoreHour - 9) * 60 + this.scoreMinute) * 90/480);
         this.scoreSecondFootball = ((((this.scoreHour - 9) * 60 + this.scoreMinute) * 60 + this.scoreSecond) * 90/480) % 60;
+        if (this.scoreMinuteFootball >= 90 || this.scoreMinuteFootball < 0) {
+            this.scoreMinuteFootball = 90;
+            this.scoreSecondFootball = 0;
+        }
     }
 
     consolidateScore() {

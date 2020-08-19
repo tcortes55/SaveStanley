@@ -509,7 +509,7 @@ function drawHighScores() {
   scenario.display();
   drawWhiteBoard(0);
   
-  let title = "High Scores";
+  let title = "Ranking";
   P5Style.titleStyle();
   text(title, width/2, height * 1/6 + 35);
 
@@ -540,7 +540,7 @@ function drawHighScores() {
 
   currentHeight = currentHeight + 20;
   textAlign(LEFT);
-  text("Your high score:", 240, currentHeight);
+  text("Seu recorde:", 240, currentHeight);
   textAlign(RIGHT);
   if (currentUserHighScore != null) {
     text(currentUserHighScore.totalScore, 400, currentHeight);
@@ -553,7 +553,7 @@ function drawHighScores() {
     P5Style.redTextStyle();
     currentHeight = currentHeight + 20;
     textAlign(LEFT);
-    text("Your last score:", 240, currentHeight);
+    text("Última pontuação:", 240, currentHeight);
     textAlign(RIGHT);
     text(lastScore.totalScore, 400, currentHeight);
   }
@@ -644,7 +644,27 @@ function drawLevelEnd() {
 
 
   drawWhiteBoard(offsetStep);
-  let title = "Day " + score.scoreDay + " Finished!";
+  let currentStage = '';
+  switch (score.scoreDay) {
+    case 1:
+      currentStage = "Você venceu a Fase de Grupos!";
+      break;
+    case 2:
+      currentStage = "Você venceu as Oitavas de Final!";
+      break;
+    case 3:
+      currentStage = "Você venceu as Quartas de Final!";
+      break;
+    case 4:
+      currentStage = "Você venceu a Semi-final!";
+      break;
+    case 5:
+      currentStage = "É CAMPEÃO!";
+      break;
+  }
+
+  let title = currentStage;
+
   drawScoreBoard(title, offsetStep);
   
   animateScoreBoard();
@@ -867,12 +887,13 @@ function drawScoreBoard(title, offsetX) {
 
   let clockTime;
 
-  if (isBusinessHours()) {
-    clockTime = score.n(score.scoreHour) + "h" + score.n(score.scoreMinute);
-  }
-  else {
-    clockTime = "17h00";
-  }
+  // if (isBusinessHours()) {
+  //   clockTime = score.n(score.scoreHour) + "h" + score.n(score.scoreMinute);
+  // }
+  // else {
+  //   clockTime = "17h00";
+  // }
+  clockTime = score.n(score.scoreMinuteFootball.toFixed(0)) + "'" + score.n(score.scoreSecondFootball.toFixed(0) + "\"");
 
   image(imgClock, 200 + offsetX, height * 1/6 + 55, 30, 30);
   P5Style.clockCountStyle();
@@ -916,10 +937,10 @@ function animateScoreBoard() {
 
 function drawHighScoreInput(offsetX) {
   P5Style.titleStyle();
-  text("New high score!", width/2 + offsetX, height * 1/6 + 35);
+  text("Novo recorde!", width/2 + offsetX, height * 1/6 + 35);
 
   P5Style.clockCountStyle();
-  text("Total score:", 185 + offsetX, height * 1/6 + 90);
+  text("Total:", 185 + offsetX, height * 1/6 + 90);
   textAlign(RIGHT);
   text(score.totalScore, 430 + offsetX, height * 1/6 + 90);
 
@@ -928,7 +949,7 @@ function drawHighScoreInput(offsetX) {
   rect(width * 1/4 + offsetX, 177, width * 1/2, height * 1/7, 10);
   
   P5Style.clockCountStyle();
-  text("Your name:", 185 + offsetX, height * 1/6 + 150);
+  text("Seu nome:", 185 + offsetX, height * 1/6 + 150);
   nameInput.show();
 
   sendScoreButton.show();
@@ -978,7 +999,22 @@ function drawHighScoreInput(offsetX) {
 function animateNewLevelCountdown() {
   P5Style.titleLargeStyle();
   if (score.scoreHour === 5) {
-    text("Day " + (score.scoreDay + 1) + " starting in...", width/2, height * 1/6 + 35);  
+    let currentStage = '';
+    switch (score.scoreDay) {
+      case 1:
+        currentStage = "OITAVAS DE FINAL";
+        break;
+      case 2:
+        currentStage = "QUARTAS DE FINAL";
+        break;
+      case 3:
+        currentStage = "SEMI-FINAL";
+        break;
+      case 4:
+        currentStage = "FINAL";
+        break;
+    }
+    text(currentStage + " em...", width/2, height * 1/6 + 35);  
   }
   else if (score.scoreHour === 6) {
     text("3...", width/2, height * 1/6 + 35);
