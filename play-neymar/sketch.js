@@ -208,7 +208,7 @@ function resetGame(scene) {
   });
 
   readHighScores(5, false);
-  let stringScore = localStorage.getItem('currentUserHighScoreV2');
+  let stringScore = localStorage.getItem('currentUserHighScoreV2_N');
   currentUserHighScore = JSON.parse(stringScore);
 
   isGameStopped = false;
@@ -659,7 +659,7 @@ function drawLevelEnd() {
       currentStage = "Você venceu a Semi-final!";
       break;
     case 5:
-      currentStage = "É CAMPEÃO!";
+      currentStage = "É CAMPEÃO! Divirta-se.";
       break;
   }
 
@@ -986,7 +986,7 @@ function drawHighScoreInput(offsetX) {
           currentUserHighScore.setDocId(result.id);
         }
         
-        localStorage.setItem('currentUserHighScoreV2', JSON.stringify(currentUserHighScore));
+        localStorage.setItem('currentUserHighScoreV2_N', JSON.stringify(currentUserHighScore));
 
         readHighScores(5, true);
       })

@@ -129,7 +129,7 @@
       var addScoreToDb = function (myName, myScore) {
           var addScoreToDbPromise = new Promise(function(resolve, reject) {
 
-            db.collection("scores").add({
+            db.collection("scoresNeymar").add({
                 name: myName,
                 totalScore: myScore.totalScore,
                 scoreDay: myScore.scoreDay,
@@ -153,7 +153,7 @@
           
           let highScoresFromDb = [];
 
-          db.collection("scores")
+          db.collection("scoresNeymar")
           .orderBy("totalScore", "desc")
           .orderBy("scoreDay", "desc")
           .orderBy("scoreHour", "desc")
