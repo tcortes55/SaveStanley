@@ -154,7 +154,7 @@ function resetGame(scene) {
   homeButton.addClass('imgButton').addClass('homeButton');
   homeButton.hide();
   
-  sendScoreButton = createButton('Send score');
+  sendScoreButton = createButton('Enviar');
   sendScoreButton.addClass('sendScoreButton');
   sendScoreButton.hide();
 
