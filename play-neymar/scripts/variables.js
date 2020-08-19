@@ -361,59 +361,32 @@ const gameMap = [
       {
         enemies: [
           {
-            enemyId: indexEnemyMeredith,
-            speed: 7
-          },
-          {
-            enemyId: indexEnemyMichael,
-            speed: 12
-          },
-          {
-            enemyId: indexEnemyFlyingPhyllis,
-            speed: 10
-          }
-        ],
-        duration: 100
-      },
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyMeredith,
+            enemyId: indexEnemyDwight,
             speed: 8
           },
           {
-            enemyId: indexEnemyMichael,
+            enemyId: indexEnemyJim,
+            speed: 11
+          },
+          {
+            enemyId: indexEnemyFlyingMichael,
+            speed: 16
+          },
+          {
+            enemyId: indexEnemyToby,
+            speed: 9
+          },
+          {
+            enemyId: indexEnemyRyan,
+            speed: 12
+          },
+          {
+            enemyId: indexEnemyKelly,
             speed: 12
           },
           {
             enemyId: indexEnemyFlyingCreed,
             speed: 15
-          },
-          {
-            enemyId: indexEnemyFlyingPhyllis,
-            speed: 10
-          }
-        ],
-        duration: 700
-      }
-    ]
-  },
-  {
-    // Dwight, Andy, Michael PARKOUR
-    levelMap: [
-      {
-        enemies: [
-          {
-            enemyId: indexEnemyAndy,
-            speed: 8
-          },
-          {
-            enemyId: indexEnemyDwight,
-            speed: 10
-          },
-          {
-            enemyId: indexEnemyMichael,
-            speed: 12
           }
         ],
         duration: 5000
