@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /SaveStanley/about/
 ---
 
 I'm a Brazilian software engineer. I've lost count of how many hours I spent watching The Office.
