@@ -22,7 +22,7 @@
         </video>
       {% else %}
         <video autoplay loop playsinline muted class="blog-asset rgba-mask">
-          <source src="/images/{{ include.name }}" type="video/mp4">
+          <source src="/SaveStanley/images/{{ include.name }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       {% endif %}
@@ -30,7 +30,7 @@
       <img
         class="figure__image"
         onload="this.parentElement.classList += ' figure__inner--loaded'"
-        src="/images/posts/{{ assetPath }}"
+        src="/SaveStanley/images/posts/{{ assetPath }}"
         {% if include.alt %} alt="{{ include.alt }}" {% endif %}
         {% if include.width %} width="{{ include.width }}" {% endif %}
       />
